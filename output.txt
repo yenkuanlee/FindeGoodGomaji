@@ -1,0 +1,1080 @@
+[
+{
+phone_number : (02)2343-2296
+description : 最令人捨不得攪拌的咖啡！【映相咖啡】絕對獨一無二、全台唯一的影像列印飲品！位於永康商圈、東門捷運站！邀您來嚐鮮！
+url : http://www.gomaji.com/Taipei_p158462.html
+image : http://pic.gomaji.com/img.php?type=product&id=158462&size=r
+orign_price : 300
+address : 台北市中正區信義路二段187號2樓(近捷運東門站7號出口)
+open_time : 週一至週日 12:00~21:30
+productID : 158462
+price : 199
+name : 映相咖啡
+score : 
+	非常滿意 : 30
+	普通 : 5
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 9
+}
+{
+phone_number : (02)2776-3459
+description : 「堅持原味、創造美味」【武木鍋物(大安店)】一次盡享山珍海味與吃鍋的過癮感動，推出武木嚴選單人/豪華海陸雙人饗宴，豐富盛宴就在這！近捷運忠孝復興站！
+url : http://www.gomaji.com/Taipei_p161744.html
+image : http://pic.gomaji.com/img.php?type=product&id=161744&size=r
+orign_price : 418
+address : 台北市大安區大安路一段51巷22號(近捷運忠孝復興站，步行約3分鐘)
+open_time : 週一至週日 12:00~15:00 17:00~22:00
+productID : 161744
+price : 288
+name : 武木鍋物(大安店)
+score : 
+	非常滿意 : 501
+	普通 : 65
+	非常不滿意 : 19
+	不滿意 : 12
+	滿意 : 293
+}
+{
+phone_number : (02)2831-2953
+description : 【角子虎點心麵食】推出多種超值方案優惠！承襲傳統美食，結合現代經營理念，角子虎點心麵食成就出安心味美的中式美食饗宴！
+url : http://www.gomaji.com/Taipei_p159806.html
+image : http://pic.gomaji.com/img.php?type=product&id=159806&size=r
+orign_price : 434
+address : 台北市士林區德行西路47號2樓
+open_time : 週一至週日 11:00~22:00
+productID : 159806
+price : 299
+name : 角子虎點心麵食
+score : 
+	非常滿意 : 194
+	普通 : 132
+	非常不滿意 : 38
+	不滿意 : 37
+	滿意 : 235
+}
+{
+phone_number : (02)2346-3088
+description : 【靜心園有機蔬食咖啡館】新鮮衛生的精選特餐，讓您安心享用！採用當季時蔬搭配紫米飯，每一口都擁有食材的清甜與鮮香，讓味蕾也樂活一下吧！
+url : http://www.gomaji.com/Taipei_p162305.html
+image : http://pic.gomaji.com/img.php?type=product&id=162305&size=r
+orign_price : 150
+address : 台北市信義區信義路六段112號
+open_time : 週一至週日 11:00~21:00 每週三公休
+productID : 162305
+price : 99
+name : 靜心園有機蔬食咖啡館
+score : 
+	非常滿意 : 57
+	普通 : 26
+	非常不滿意 : 8
+	不滿意 : 9
+	滿意 : 19
+}
+{
+phone_number : (02)2361-0836
+description : 喬遷推優惠！以窯烤義式爐＋豐富經驗，精準計算出美味異國披薩，造就香Ｑ拉絲的過癮快感！【5鄉地 Cinque Terre】給您最豐富美味！
+url : http://www.gomaji.com/Taipei_p159357.html
+image : http://pic.gomaji.com/img.php?type=product&id=159357&size=r
+orign_price : 300
+address : 台北市中正區信陽街3號2樓(近捷運台北車站8號出口、台大醫院)
+open_time : 週一至週日 11:00~21:00 依店家FB公告公休
+productID : 159357
+price : 139
+name : 5鄉地 Cinque Terre
+score : 
+	非常滿意 : 77
+	普通 : 13
+	非常不滿意 : 1
+	不滿意 : 5
+	滿意 : 67
+}
+{
+phone_number : (02)2767-6138
+description : 鬧中取靜的小天地，信義區中的世外桃源～【陽光番茄蔬食館】置身溫馨空間一隅，以不同角度欣賞這座城市的風景，美好人生就該如此悠閒渡過！
+url : http://www.gomaji.com/Taipei_p163649.html
+image : http://pic.gomaji.com/img.php?type=product&id=163649&size=r
+orign_price : 200
+address : 台北市信義區松信路208號1樓
+open_time : 週一至週日 10:00~21:00(最晚預約點餐時間：20:30)
+productID : 163649
+price : 119
+name : 陽光番茄蔬食館
+score : 
+}
+{
+phone_number : (02)2321-7649
+description : 「仰冰千日，用在一食。」四十年老店首度下殺優惠！【永康街芋頭大王】推出招牌雪花冰 10 選 1，享譽國際的好味道。正港天龍人的最愛！料永遠呷到冰不夠配！
+url : http://www.gomaji.com/Taipei_p163642.html
+image : http://pic.gomaji.com/img.php?type=product&id=163642&size=r
+orign_price : 170
+address : 台北市大安區永康街15-4號(近捷運東門站)
+open_time : 週一至週日 11:00~23:00  每月第二、四週週三公休
+productID : 163642
+price : 119
+name : 永康街芋頭大王
+score : 
+	非常滿意 : 2
+	普通 : 0
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 1
+}
+{
+phone_number : (02)2395-7509
+description : 超好評超美味台灣咖哩！【本家台灣咖哩】融合台式傳統肉燥與日本咖哩，兩種截然不同國民風味，激盪出意想不到味蕾火花！炸雞排、香嫩涮豬肉為人氣招牌！
+url : http://www.gomaji.com/Taipei_p159515.html
+image : http://pic.gomaji.com/img.php?type=product&id=159515&size=r
+orign_price : 235
+address : 台北市中正區新生南路一段6之9號(近捷運忠孝新生站)
+open_time : 週一至週日 11:00~15:00 17:00~22:00
+productID : 159515
+price : 155
+name : 本家台灣咖哩
+score : 
+	非常滿意 : 96
+	普通 : 32
+	非常不滿意 : 11
+	不滿意 : 10
+	滿意 : 80
+}
+{
+phone_number : (02)2893-1993
+description : 【櫻五鐵板燒】鮮嫩多汁的菲力上桌囉，油亮光澤帶著濃香氣息誘惑味蕾，經鐵板的煎烤逼出多餘水分與油脂，鮮香夠味透著熱騰騰的精華，就要征服每一張嘴！
+url : http://www.gomaji.com/Taipei_p161431.html
+image : http://pic.gomaji.com/img.php?type=product&id=161431&size=r
+orign_price : 330
+address : 台北市北投區中和街45號1樓(近捷運新北投站、復興公園對面)
+open_time : 週一至週日 11:30~14:30 17:00~21:30
+productID : 161431
+price : 199
+name : 櫻五鐵板燒
+score : 
+	非常滿意 : 21
+	普通 : 8
+	非常不滿意 : 0
+	不滿意 : 4
+	滿意 : 27
+}
+{
+phone_number : (02)2426-1227
+description : 原來不只丸作會玩會做~【水雲堂 DRINK STORE】才是搞新鮮創意的翹楚！橙香火龍果、火龍果芭樂等，不只解你身體的渴，大玩時下色彩混搭，好療癒啊！
+url : http://www.gomaji.com/Taipei_p163835.html
+image : http://pic.gomaji.com/img.php?type=product&id=163835&size=r
+orign_price : 100
+address : 基隆市中正區義二路26號(近基隆市政府)
+open_time : 週一至週日 10:00~22:00
+productID : 163835
+price : 69
+name : 水雲堂 DRINK STORE
+score : 
+	非常滿意 : 6
+	普通 : 0
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 2
+}
+{
+phone_number : (02)2795-6777 #508
+description : 【宜家商旅 LA MAISON HOTEL-JS餐廳】用各式新鮮食材，搭配主廚嫻熟的手藝與精準火候，每道料理都如藝品般讓人驚艷，現在就來感受愜意氛圍中的絕美饗宴吧！
+url : http://www.gomaji.com/Taipei_p161561.html
+image : http://pic.gomaji.com/img.php?type=product&id=161561&size=r
+orign_price : 418
+address : 台北市內湖區成功路二段512號
+open_time : 週一至週日 早午餐/下午茶 11:30~17:00 午餐 11:30~14:00 晚餐 17:30~22:00
+productID : 161561
+price : 228
+name : 宜家商旅 LA MAISON HOTE...
+score : 
+	非常滿意 : 22
+	普通 : 0
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 1
+}
+{
+phone_number : (02)2356-9486
+description : 溫馨迷人，一進門完全不受拘束的氛圍！【夢の飛行 甜點‧咖啡‧茶】必嚐招牌~冰淇淋巧克力布朗尼，紮實濕潤的香濃布朗尼，抹上大球的沁涼冰淇淋，大快人心！
+url : http://www.gomaji.com/Taipei_p161568.html
+image : http://pic.gomaji.com/img.php?type=product&id=161568&size=r
+orign_price : 350
+address : 台北市中正區愛國東路38號1樓(近捷運中正紀念堂站)
+open_time : 週一至週四 10:00~19:00 週五至週日 10:00~21:00 每週三公休
+productID : 161568
+price : 228
+name : 夢の飛行 甜點‧咖啡‧茶
+score : 
+	非常滿意 : 13
+	普通 : 0
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 2
+}
+{
+phone_number : (02)8780-2720
+description : 【Leo&#39;s Playland樂幼屋親子派對歡樂園】數百坪的自由玩樂空間，由專業團隊量身打造，安全無虞、充滿樂趣！嚴選新鮮食材、現點現做！近台北 101！
+url : http://www.gomaji.com/Taipei_p156278.html
+image : http://pic.gomaji.com/img.php?type=product&id=156278&size=r
+orign_price : 200
+address : 台北市信義區信義路五段106號B1(近捷運台北101/世貿站、捷運象山站)
+open_time : 週一至週五 10:30~18:00 週六至週日 09:30~20:00
+productID : 156278
+price : 135
+name : Leo's Playland樂幼屋親...
+score : 
+	非常滿意 : 16
+	普通 : 0
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 7
+}
+{
+phone_number : (02)2892-2998
+description : 笑談天下事，忘卻人生憂～【平筠閣｜藝品．品茗】全新獨棟茶飲店！提供各式茶飲、美味簡餐，是您前來北投放鬆的好地方！
+url : http://www.gomaji.com/Taipei_p156472.html
+image : http://pic.gomaji.com/img.php?type=product&id=156472&size=r
+orign_price : 200
+address : 台北市北投區溫泉路65巷8號(近捷運新北投站，光明路上屈臣氏右方斜對面親子步道上行3分鐘)
+open_time : 週一至週日 11:00~21:00 每週二公休
+productID : 156472
+price : 138
+name : 平筠閣｜藝品．品茗
+score : 
+	非常滿意 : 26
+	普通 : 5
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 16
+}
+{
+phone_number : (02)2311-0215
+description : 主廚推薦經典單人排餐～【瓦法奇朵 Waffogato】高貴不貴的優質美味，搭配招牌松露薯條，在每個時段餵飽您的身心、滿足每個期待的靈魂！
+url : http://www.gomaji.com/Taipei_p161460.html
+image : http://pic.gomaji.com/img.php?type=product&id=161460&size=r
+orign_price : 286
+address : 台北市中正區信陽街29號(近捷運台北車站站、臺北火車站、站前商圈)
+open_time : 週一至週日 11:30~22:00
+productID : 161460
+price : 129
+name : 瓦法奇朵 Waffogato
+score : 
+	非常滿意 : 941
+	普通 : 669
+	非常不滿意 : 310
+	不滿意 : 208
+	滿意 : 965
+}
+{
+phone_number : (02)8771-8725
+description : 東區超夯，快來嚐鮮！【Stan&Cat史丹貓美式餐廳】199元享300元消費！必點天呀！好大的牛肉堡、美式披薩吐司牛肉堡、紐約客火烤牛排三明治等，近捷運忠孝敦化站！
+url : http://www.gomaji.com/Taipei_p161411.html
+image : http://pic.gomaji.com/img.php?type=product&id=161411&size=r
+orign_price : 300
+address : 台北市大安區敦化南路一段160巷26號(近捷運忠孝敦化站)
+open_time : 週二至週日 11:30~22:00 每週一公休
+productID : 161411
+price : 199
+name : Stan&Cat史丹貓美式餐廳
+score : 
+	非常滿意 : 248
+	普通 : 87
+	非常不滿意 : 3
+	不滿意 : 9
+	滿意 : 130
+}
+{
+phone_number : (02)7730-3211
+description : 衛生第一、品質第一、好吃第一！【皇家伴手禮】 冰心綠豆皇/金賞鳳凰酥禮盒！真材實料，濃而不膩，搭配茶飲更為對味！大小朋友皆愛不釋口！千萬別錯過！
+url : http://www.gomaji.com/Taipei_p161310.html
+image : http://pic.gomaji.com/img.php?type=product&id=161310&size=r
+orign_price : 388
+address : 台北市內湖區行愛路77巷16號
+open_time : 週一至週日 09:30~19:00
+productID : 161310
+price : 150
+name : 皇家伴手禮
+score : 
+	非常滿意 : 76
+	普通 : 10
+	非常不滿意 : 2
+	不滿意 : 1
+	滿意 : 48
+}
+{
+phone_number : (02)2586-5733
+description : 精緻造型讓您送禮自用兩相宜！【Is Taiwan Is Chocolate 品台灣手作甜品】巧克力的醇厚甜香搭配慕斯蛋糕的細緻綿密，甜美滋味不論大人小孩都喜歡！
+url : http://www.gomaji.com/Taipei_p158708.html
+image : http://pic.gomaji.com/img.php?type=product&id=158708&size=r
+orign_price : 320
+address : 台北市大同區酒泉街10巷11號(捷運圓山站1號出口右手邊對面)
+open_time : 週一至週日 10:30~21:00
+productID : 158708
+price : 219
+name : Is Taiwan Is Chocolate ...
+score : 
+	非常滿意 : 294
+	普通 : 120
+	非常不滿意 : 37
+	不滿意 : 31
+	滿意 : 234
+}
+{
+phone_number : (02)2722-5520
+description : GOMAJI獨賣~秉持傳統猶太人做法，低糖、低油、使用老麵種低溫長時間發酵製成！【Bügel Bagel 貝菈貝果】堅持每日手工新鮮製作，讓您吃得開心又安心！
+url : http://www.gomaji.com/Taipei_p164078.html
+image : http://pic.gomaji.com/img.php?type=product&id=164078&size=r
+orign_price : 100
+address : 台北市信義區信義路五段150巷16弄1之1號1樓(近捷運象山站2號出口)
+open_time : 週一至週五 10:00~18:30 每週六、日公休
+productID : 164078
+price : 69
+name : Bügel Bagel 貝菈貝果
+score : 
+	非常滿意 : 19
+	普通 : 8
+	非常不滿意 : 1
+	不滿意 : 0
+	滿意 : 8
+}
+{
+phone_number : (02)2369-5151
+description : 近捷運台電大樓站、師大夜市裡的【阿諾可麗餅】提供各式美味可麗餅，繽紛可口的鹹甜滋味，多達數十種的「台式可麗餅」等您來細細品味，吃出那幸福的味道！
+url : http://www.gomaji.com/Taipei_p161641.html
+image : http://pic.gomaji.com/img.php?type=product&id=161641&size=r
+orign_price : 100
+address : 台北市大安區師大路39巷1號1樓(近捷運台電大樓站步行約5分鐘)
+open_time : 週一至週日 12:00~00:00
+productID : 161641
+price : 66
+name : 阿諾可麗餅
+score : 
+	非常滿意 : 261
+	普通 : 80
+	非常不滿意 : 26
+	不滿意 : 25
+	滿意 : 235
+}
+{
+phone_number : (02)2773-1998
+description : 使用法國進口發酵奶油與日本海藻糖製作，提倡低糖、健康養生取向！【法布甜】獻上甜美不膩口的美味小點，在舌尖上綻放幸福風味！
+url : http://www.gomaji.com/Taipei_p162893.html
+image : http://pic.gomaji.com/img.php?type=product&id=162893&size=r
+orign_price : 400
+address : 台北市中山區八德路二段196號
+open_time : 週一至週日 11:00~20:00
+productID : 162893
+price : 199
+name : 法布甜
+score : 
+}
+{
+phone_number : (02)2791-6700
+description : 三十年來的好滋味！【太郎日本料理】每日嚴選各式種類的新鮮食材，提供和風、懷石及傳統日本料理，還有中西合併的新式料理，適合親友／團體聚餐的好地方！
+url : http://www.gomaji.com/Taipei_p162657.html
+image : http://pic.gomaji.com/img.php?type=product&id=162657&size=r
+orign_price : 500
+address : 台北市內湖區民權東路六段106號(內湖區公所、內湖三民國中、中天電視台)
+open_time : 週一至週日 11:00~14:30 17:30~22:00
+productID : 162657
+price : 299
+name : 太郎日本料理
+score : 
+	非常滿意 : 655
+	普通 : 90
+	非常不滿意 : 59
+	不滿意 : 29
+	滿意 : 179
+}
+{
+phone_number : (02)2361-5825
+description : 天知道、地知道，只有不買不知道！【大黑松小倆口】推出超人氣唐仔餅，反向思考突圍創新，將蔥餅包入牛軋糖內，鹹鹹甜甜的香滋味，成功擄獲全家大小的胃！
+url : http://www.gomaji.com/Taipei_p157018.html
+image : http://pic.gomaji.com/img.php?type=product&id=157018&size=r
+orign_price : 180
+address : 台北市中正區北平西路3號B1(台北火車站B1西三門)
+open_time : 週一至週日 10:00~22:00
+productID : 157018
+price : 99
+name : 大黑松小倆口
+score : 
+	非常滿意 : 1652
+	普通 : 420
+	非常不滿意 : 131
+	不滿意 : 73
+	滿意 : 1263
+}
+{
+phone_number : (02)2721-1885
+description : 近捷運國父紀念館站！【季丼屋-kidonya(忠孝延吉店)】網路口碑人氣名店，有產銷履歷認證、高CP值、平價日式丼飯，連米也特選與花蓮農民合作，產地直銷哇好米！
+url : http://www.gomaji.com/Taipei_p160588.html
+image : http://pic.gomaji.com/img.php?type=product&id=160588&size=r
+orign_price : 159
+address : 台北市大安區延吉街137巷2號(近捷運國父紀念館站、忠孝敦化站，步行約5分鐘)
+open_time : 週一至週日 11:30~22:00
+productID : 160588
+price : 109
+name : 季丼屋-kidonya
+score : 
+	非常滿意 : 199
+	普通 : 84
+	非常不滿意 : 7
+	不滿意 : 10
+	滿意 : 212
+}
+{
+phone_number : (02)2331-9406
+description : 祖傳配方、香Ｑ有勁，超過一甲子的好味道！【真好吃包子饅頭店】堅持高品質，將古早味融入新創意，玩出亮眼新口味！豐富多元的口味任您選擇！
+url : http://www.gomaji.com/Taipei_p158626.html
+image : http://pic.gomaji.com/img.php?type=product&id=158626&size=r
+orign_price : 180
+address : 台北市萬華區貴陽街二段1號
+open_time : 週一至週日 08:00~19:00 國定假日請先致電詢問是否公休
+productID : 158626
+price : 119
+name : 真好吃包子饅頭
+score : 
+	非常滿意 : 1984
+	普通 : 452
+	非常不滿意 : 79
+	不滿意 : 59
+	滿意 : 1539
+}
+{
+phone_number : (02)8797-7399
+description : 不限張數使用，買越多省越多！【山芙蓉風味料理(內湖店)】晶瑩油亮的東坡肉閃爍迷人光澤，甜鹹交錯的誘人醬汁搭配在齒頰間化開的完美口感，錯過真的太可惜！
+url : http://www.gomaji.com/Taipei_p158587.html
+image : http://pic.gomaji.com/img.php?type=product&id=158587&size=r
+orign_price : 500
+address : 台北市內湖區內湖路一段324號
+open_time : 週一至週日 11:00~14:00 17:00~22:00
+productID : 158587
+price : 288
+name : 山芙蓉風味料理(內湖店)
+score : 
+	非常滿意 : 665
+	普通 : 210
+	非常不滿意 : 85
+	不滿意 : 38
+	滿意 : 389
+}
+{
+phone_number : (02)2567-1269
+description : 御書園餐飲集團品牌，給您午餐、宵夜新選擇！【御讚堂-鐵板燒特區】沙朗肩小排經主廚巧手特製，彈嫩不失嚼勁伴隨肉汁迸發，就要征服每張挑剔的嘴！
+url : http://www.gomaji.com/Taipei_p155063.html
+image : http://pic.gomaji.com/img.php?type=product&id=155063&size=r
+orign_price : 350
+address : 台北市中山區林森北路264號B1(近晶華酒店後門，林森北路與長春路交叉口)
+open_time : 週一至週日 11:30~03:00
+productID : 155063
+price : 230
+name : 御讚堂-鐵板燒特區
+score : 
+	非常滿意 : 229
+	普通 : 38
+	非常不滿意 : 3
+	不滿意 : 4
+	滿意 : 142
+}
+{
+phone_number : (02)2799-5801
+description : 齁齁~只有禮拜六不能用？太好了！我要立馬揪好姐妹來【HOHO CAFE】約個平日談心聊夢話家常！人少又不嫌吵，超值折抵 ~ 好評不斷！
+url : http://www.gomaji.com/Taipei_p159506.html
+image : http://pic.gomaji.com/img.php?type=product&id=159506&size=r
+orign_price : 100
+address : 台北市內湖區江南街114號
+open_time : 週一至週五 07:00~20:00 週日 09:00~17:00 每週六公休
+productID : 159506
+price : 69
+name : HOHO CAFE
+score : 
+	非常滿意 : 2
+	普通 : 1
+	非常不滿意 : 0
+	不滿意 : 2
+	滿意 : 0
+}
+{
+phone_number : (02)2898-6651
+description : 近捷運北投站~【麥飯食中西餐坊】以清蒸方式烹調，完美呈現鱸魚細緻肉質，恰到好處的鹹香氣息在口中蔓延開來，每一口都讓人萬分滿足！
+url : http://www.gomaji.com/Taipei_p163679.html
+image : http://pic.gomaji.com/img.php?type=product&id=163679&size=r
+orign_price : 100
+address : 台北市北投區中央北路一段96號1樓(近捷運北投站)
+open_time : 週一至週日 11:30~21:00
+productID : 163679
+price : 59
+name : 麥飯食中西餐坊
+score : 
+	非常滿意 : 4
+	普通 : 0
+	非常不滿意 : 0
+	不滿意 : 1
+	滿意 : 3
+}
+{
+phone_number : (02)2500-6002#311、312
+description : 尊重自然，崇尚原味！【上城糕餅小舖】天然、味美、質優，給您視覺與味覺的華麗饗宴！最佳伴手禮之選，傳遞無比幸福，與您共享每個歡樂時刻！
+url : http://www.gomaji.com/Taipei_p161380.html
+image : http://pic.gomaji.com/img.php?type=product&id=161380&size=r
+orign_price : 150
+address : 台北市中山區復興北路368號1樓(近捷運中山國中站)
+open_time : 週一至週日 07:00~22:00
+productID : 161380
+price : 99
+name : 上城糕餅小舖
+score : 
+	非常滿意 : 7
+	普通 : 2
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 8
+}
+{
+phone_number : (02)2343-2079
+description : 近捷運東門站~【飛頁書餐廳】藏身在寧靜、悠閒的巷弄中，一處書香與美食的完美結合，感受與字句對話、與味蕾交心的人文氣息！
+url : http://www.gomaji.com/Taipei_p158075.html
+image : http://pic.gomaji.com/img.php?type=product&id=158075&size=r
+orign_price : 300
+address : 台北市大安區新生南路二段30巷1-3號(近捷運東門站)
+open_time : 週二至週日11:30~21:30 每週一公休
+productID : 158075
+price : 180
+name : 飛頁書餐廳
+score : 
+	非常滿意 : 103
+	普通 : 5
+	非常不滿意 : 0
+	不滿意 : 4
+	滿意 : 18
+}
+{
+phone_number : (02)8732-6519
+description : 90元享150元消費！日式手作漢堡專賣店【大吉漢堡食堂】！新鮮食材手工製作漢堡排，搭配手工麵包或白飯，淋上紅酒和牛肉熬製的法式多蜜醬，絕對令人回味無窮！
+url : http://www.gomaji.com/Taipei_p163528.html
+image : http://pic.gomaji.com/img.php?type=product&id=163528&size=r
+orign_price : 150
+address : 台北市信義區富陽街44巷23號1樓(近捷運六張犁站，靠近信安街145號巷口)
+open_time : 週二至週五 11:30~14:00 17:30~21:00 週六至週日 11:30~21:00 每週一公休
+productID : 163528
+price : 90
+name : 大吉漢堡食堂
+score : 
+	非常滿意 : 298
+	普通 : 67
+	非常不滿意 : 6
+	不滿意 : 19
+	滿意 : 163
+}
+{
+phone_number : (02)2785-9606
+description : 近捷運後山埤站~【O&#39;lovely Nail & Cafe】濃稠香醇、色澤誘人的咖哩淋上炸至酥香的豬排，兩種香氣在唇齒間融合交織，大人小孩都熱愛不已！
+url : http://www.gomaji.com/Taipei_p160951.html
+image : http://pic.gomaji.com/img.php?type=product&id=160951&size=r
+orign_price : 180
+address : 台北市南港區忠孝東路六段86號1樓(近捷運後山埤站3號出口，步行約2分鐘、玉成二站停車場)
+open_time : 週一至週六 10:30~20:00 週日 10:30~16:00
+productID : 160951
+price : 99
+name : O'lovely Nail & Cafe
+score : 
+	非常滿意 : 4
+	普通 : 0
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 3
+}
+{
+phone_number : (02)2799-6680
+description : 馬戲團市集超熱賣招牌拖鞋麵包，輕爽無負擔，關渡知名水鳥餐廳 x 馬戲團市集咖啡餐酒館，聯手推出！【馬戲團市集】與起司香一同展開夢幻之旅！
+url : http://www.gomaji.com/Taipei_p155470.html
+image : http://pic.gomaji.com/img.php?type=product&id=155470&size=r
+orign_price : 149
+address : 台北市內湖區瑞光路584號(近捷運文湖線西湖站，步行5分鐘)
+open_time : 週一至週日 11:30~15:00 17:00~22:00
+productID : 155470
+price : 99
+name : 馬戲團市集
+score : 
+	非常滿意 : 75
+	普通 : 13
+	非常不滿意 : 3
+	不滿意 : 7
+	滿意 : 47
+}
+{
+phone_number : (02)2820-3369
+description : 平假日皆可用！【泰蘸泰式料理】打拋豬、清蒸檸檬魚等色香味俱全泰國菜，清酸滋味搭配香辣氣息，超級好下飯，挑逗唇舌慾望！愈吃愈是欲罷不能！近捷運石牌站！
+url : http://www.gomaji.com/Taipei_p155812.html
+image : http://pic.gomaji.com/img.php?type=product&id=155812&size=r
+orign_price : 300
+address : 台北市北投區石牌路一段126-1號(近捷運石牌站、石牌國小)
+open_time : 週一至週日 11:00~14:30 17:00~21:30
+productID : 155812
+price : 199
+name : 泰蘸泰式料理
+score : 
+	非常滿意 : 120
+	普通 : 37
+	非常不滿意 : 3
+	不滿意 : 8
+	滿意 : 67
+}
+{
+phone_number : (02)2546-7126
+description : 秉持頂級、新鮮、創意三項原則！【莫凡彼餐飲集團】鹹香焗烤搭上沙嗲雞肉，完美組合就要征服你的味蕾，恰到好處的醇厚氣息在口中釋放，層次分明讓人愛不釋口！
+url : http://www.gomaji.com/Taipei_p157184.html
+image : http://pic.gomaji.com/img.php?type=product&id=157184&size=r
+orign_price : 550
+address : 台北市松山區慶城街12之1號(近南京復興捷運站)
+open_time : 週一至週四 07:00~22:00 週五 07:00~23:00 週六 08:00~23:00 週日 08:00~22:00
+productID : 157184
+price : 288
+name : 莫凡彼餐飲集團
+score : 
+	非常滿意 : 762
+	普通 : 433
+	非常不滿意 : 106
+	不滿意 : 102
+	滿意 : 871
+}
+{
+phone_number : (02)2785-9738
+description : 好評不斷！新莊、後山埤兩分店適用 【喜園涮涮鍋】推出單人/雙人方案！堅持選用慈心有機認證每日直送，費心細熬黃金湯百搭各式鍋物，肉品、海鮮樣樣是經典！
+url : http://www.gomaji.com/Taipei_p160423.html
+image : http://pic.gomaji.com/img.php?type=product&id=160423&size=r
+orign_price : 330
+address : 台北市南港區忠孝東路五段805號(近捷運後山埤站)
+open_time : 週一至週日 11:00~00:00
+productID : 160423
+price : 219
+name : 喜園涮涮鍋
+score : 
+	非常滿意 : 40
+	普通 : 7
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 15
+}
+{
+phone_number : (02)2738-8588
+description : 【樂町手打麵丼飯專門店】用料大方不手軟！肉質鮮嫩多汁、麵條超Q彈，搭配精心熬煮的湯頭，絕對使你意猶未盡，滿足每一張挑剔的嘴！
+url : http://www.gomaji.com/Taipei_p158802.html
+image : http://pic.gomaji.com/img.php?type=product&id=158802&size=r
+orign_price : 100
+address : 台北市大安區樂業街153號(近捷運六張犁站，步行約8分鐘)
+open_time : 週二至週日 11:30~14:00 17:30~20:30 每週一公休
+productID : 158802
+price : 69
+name : 樂町手打麵丼飯專門店
+score : 
+	非常滿意 : 9
+	普通 : 2
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 3
+}
+{
+phone_number : (02)2365-2377
+description : 採用加拿大進口非基因改造黃豆，不添加防腐劑、香料！【活力雞精】不濾渣養生全豆漿，香濃溫潤的滋味在口中綻放，給味蕾清甜健康的美味~
+url : http://www.gomaji.com/Taipei_p163039.html
+image : http://pic.gomaji.com/img.php?type=product&id=163039&size=r
+orign_price : 160
+address : 台北市大安區羅斯福路二段97號(近捷運古亭站)
+open_time : 週一至週六 09:00~21:00 每週日公休
+productID : 163039
+price : 99
+name : 活力雞精
+score : 
+	非常滿意 : 20
+	普通 : 2
+	非常不滿意 : 1
+	不滿意 : 0
+	滿意 : 15
+}
+{
+phone_number : (02)2549-1010
+description : 【角子虎北方水餃館】將北方精緻麵食與本土口味相結合，嚴選高品質原物料、精確把關，研發創新的產品，提供高貴不貴的美味料理！
+url : http://www.gomaji.com/Taipei_p159826.html
+image : http://pic.gomaji.com/img.php?type=product&id=159826&size=r
+orign_price : 325
+address : 台北市大同區承德路二段135號
+open_time : 週一至週五 11:00~14:00 17:00~21:00 週六至週日 11:00~21:00
+productID : 159826
+price : 199
+name : 角子虎北方水餃館
+score : 
+	非常滿意 : 3206
+	普通 : 1544
+	非常不滿意 : 274
+	不滿意 : 304
+	滿意 : 3735
+}
+{
+phone_number : (02)2771-2700、0913-816-997
+description : 平價ｘ美味ｘ創意！近捷運忠孝復興～【山葵居酒屋 】CP 值超高的日式居酒屋，獨具風情！結合中日西式的烹調手法，為您呈現新奇美味的豐富料理！
+url : http://www.gomaji.com/Taipei_p161746.html
+image : http://pic.gomaji.com/img.php?type=product&id=161746&size=r
+orign_price : 500
+address : 台北市大安區敦化南路一段160巷49號(捷運忠孝復興4號出口步行約5分鐘，近忠孝SOGO)
+open_time : 週二至週日 18:00~02:00 每週一公休
+productID : 161746
+price : 299
+name : 山葵居酒屋
+score : 
+	非常滿意 : 197
+	普通 : 17
+	非常不滿意 : 3
+	不滿意 : 9
+	滿意 : 102
+}
+{
+phone_number : (02)2302-0885
+description : 美食、飛鏢、桌遊讓人流連忘返！【紅樓夢】紅酒入菜後燉煮，將其香醇滋味深入肉質中，使牛腩更加軟嫩可口，淡淡的酒香在齒頰間擴散，絕對讓你萬分滿足！
+url : http://www.gomaji.com/Taipei_p163365.html
+image : http://pic.gomaji.com/img.php?type=product&id=163365&size=r
+orign_price : 200
+address : 台北市萬華區中華路一段216號1樓(近捷運西門站)
+open_time : 週一至週四 12:00~23:00 週五至週日 12:00~01:00
+productID : 163365
+price : 99
+name : 紅樓夢
+score : 
+	非常滿意 : 96
+	普通 : 9
+	非常不滿意 : 8
+	不滿意 : 5
+	滿意 : 44
+}
+{
+phone_number : (02)2531-7771
+description : 網路人氣名店【SIGRID 居野珈琲】走入店中立即將煩惱與壓力拋到腦後，讓人沉醉於此刻的慵懶氣息，石原唯斗強力推薦！近捷運中山站！
+url : http://www.gomaji.com/Taipei_p155361.html
+image : http://pic.gomaji.com/img.php?type=product&id=155361&size=r
+orign_price : 300
+address : 台北市中山區南京東路一段130之4號2樓(近捷運中山站、南京林森路口)
+open_time : 週一、週二、週四、週日 午餐 12:00~14:00、下午茶 13:30~17:00、晚餐 17:30~21:00 每週三、週五至週六公休
+productID : 155361
+price : 145
+name : SIGRID 居野珈啡
+score : 
+	非常滿意 : 103
+	普通 : 5
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 28
+}
+{
+phone_number : (02)8712-3863
+description : 【十里安手麵】提供大江南北各地特色小菜、麵點、小點、甜品等佳餚美饌，精心打造中國與現代結合之高品味用餐環境，給您絕佳美食及尊榮的服務！
+url : http://www.gomaji.com/Taipei_p157632.html
+image : http://pic.gomaji.com/img.php?type=product&id=157632&size=r
+orign_price : 300
+address : 台北市松山區慶城街1號2樓(近捷運南京復興站步行約1分鐘、慶城街一號美食廣場)
+open_time : 週日至週四 11:00~21:30 週五至週六 11:00~22:00
+productID : 157632
+price : 199
+name : 十里安手麵
+score : 
+	非常滿意 : 211
+	普通 : 34
+	非常不滿意 : 26
+	不滿意 : 19
+	滿意 : 96
+}
+{
+phone_number : (02)2821-7916
+description : 【涵川食坊-石鍋美食】份量十足的石鍋拌飯一上桌就帶來誘人氣息，泡菜的酸香帶勁讓人胃口大開~底層的鍋巴更是焦脆可口，令饕客讚不絕口的就是這一味！
+url : http://www.gomaji.com/Taipei_p162926.html
+image : http://pic.gomaji.com/img.php?type=product&id=162926&size=r
+orign_price : 200
+address : 台北市北投區石牌路二段99巷51號(近捷運石牌站、榮總)
+open_time : 週一至週日 11:00~20:00 每月第二、四週週日公休
+productID : 162926
+price : 109
+name : 涵川食坊-石鍋美食
+score : 
+	非常滿意 : 23
+	普通 : 2
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 5
+}
+{
+phone_number : (02)2545-5515
+description : 歡慶【新泰城泰雲料理(台北店)】開幕！必點檸檬松阪豬、咖哩蝦、椰汁雞肉、去骨香茅鱸魚、打拋豬、涼拌花枝、雲式大薄片！泰國皇家政府評選認證的「泰精選餐廳」！
+url : http://www.gomaji.com/Taipei_p163103.html
+image : http://pic.gomaji.com/img.php?type=product&id=163103&size=r
+orign_price : 400
+address : 台北市松山區民生東路三段130巷7弄11號1樓(近捷運南京復興站)
+open_time : 週一至週六 11:00~14:00 17:00~22:00 每週日公休
+productID : 163103
+price : 280
+name : 新泰城泰雲料理(台北店)
+score : 
+	非常滿意 : 36
+	普通 : 3
+	非常不滿意 : 3
+	不滿意 : 1
+	滿意 : 27
+}
+{
+phone_number : (02)2321-9819
+description : 絕美氛圍顛覆你對牛肉麵店的刻板印象！【北芳園牛肉麵】精準火候料理塊塊紮實彈嫩的牛肉，配上醇香濃郁的湯頭入口，點滴精華在齒頰間蔓延，吃過就愛上！
+url : http://www.gomaji.com/Taipei_p160309.html
+image : http://pic.gomaji.com/img.php?type=product&id=160309&size=r
+orign_price : 150
+address : 台北市信義區永吉路30巷178弄1號(近捷運市府站4號出口(步行約3分鐘))
+open_time : 週日至週四 11:00~01:00  週五至週六 11:00~01:30 每週二公休
+productID : 160309
+price : 99
+name : 北芳園牛肉麵
+score : 
+	非常滿意 : 956
+	普通 : 299
+	非常不滿意 : 44
+	不滿意 : 70
+	滿意 : 635
+}
+{
+phone_number : (02)2533-1215
+description : 享受米食也能很不一樣！西餐的喜愛與米飯的美好，快來品味【米時 RICE MOMENT】帶來的無國界料理吧！必嚐經典美式樂活鐵盤早午餐、泰式綠汁溫泉霜降牛蓋飯！
+url : http://www.gomaji.com/Taipei_p164114.html
+image : http://pic.gomaji.com/img.php?type=product&id=164114&size=r
+orign_price : 300
+address : 台北市中山區明水路397巷5號1樓(近捷運大直站)
+open_time : 週一至週四 11:30~14:30 週五至週日 11:00~14:30 17:00~20:30 公休日詳見FB粉絲團
+productID : 164114
+price : 199
+name : 米時 RICE MOMENT
+score : 
+	非常滿意 : 45
+	普通 : 1
+	非常不滿意 : 0
+	不滿意 : 1
+	滿意 : 34
+}
+{
+phone_number : (02)8712-7000
+description : CP 值超高！【鍋貼遇到麵】提供正宗上海小籠湯包、油潑刀削麵等多種北方麺點及特色小菜，舒適的用餐環境，是個適合三五好友一同享用美食的好地方！
+url : http://www.gomaji.com/Taipei_p163336.html
+image : http://pic.gomaji.com/img.php?type=product&id=163336&size=r
+orign_price : 150
+address : 台北市松山區民生東路四段57號
+open_time : 週一至週日 11:30~14:00 17:00~20:30
+productID : 163336
+price : 99
+name : 鍋貼遇到麵
+score : 
+}
+{
+phone_number : (02)2742-3908
+description : 近捷運南京三民站～【海男煮】全新開幕！雅緻舒適的用餐空間、充滿日式居酒屋氛圍，推出超值人氣獨享餐，一個人也能吃得很美味！
+url : http://www.gomaji.com/Taipei_p161719.html
+image : http://pic.gomaji.com/img.php?type=product&id=161719&size=r
+orign_price : 120
+address : 台北市松山區南京東路五段250巷18弄2之1號(近捷運南京三民站3號出口，步行約3分鐘)
+open_time : 週一至週六 12:00~14:00 18:00~22:00 每週日公休
+productID : 161719
+price : 75
+name : 海男煮
+score : 
+	非常滿意 : 11
+	普通 : 0
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 7
+}
+{
+phone_number : (02)2773-7333
+description : 療癒人生的炸物啊~非【魔法雞排】莫屬！新品─魔法骰子雞，堅持每天清潔維護機器，只專賣炸雞，避免多種類食材汙染油質，油質清澈不變質，金黃尤物健康超美味！
+url : http://www.gomaji.com/Taipei_p160413.html
+image : http://pic.gomaji.com/img.php?type=product&id=160413&size=r
+orign_price : 89
+address : 台北市大安區忠孝東路四段223巷22號
+open_time : 週一至週日 11:00~23:00
+productID : 160413
+price : 59
+name : 魔法雞排
+score : 
+	非常滿意 : 659
+	普通 : 220
+	非常不滿意 : 85
+	不滿意 : 76
+	滿意 : 615
+}
+{
+phone_number : (02)8797-5398
+description : 【十里安手麵(瑞光店)】提供大江南北各地特色小菜、麵點、小點、甜品等佳餚美饌，精心打造中國與現代結合之高品味用餐環境，給您絕佳美食及尊榮的服務！
+url : http://www.gomaji.com/Taipei_p155237.html
+image : http://pic.gomaji.com/img.php?type=product&id=155237&size=r
+orign_price : 300
+address : 台北市內湖區瑞光路413號(近捷運港墘站，步行約7分鐘)
+open_time : 週一至週日 11:30~14:30 17:30~21:30
+productID : 155237
+price : 199
+name : 十里安手麵(瑞光店)
+score : 
+	非常滿意 : 211
+	普通 : 34
+	非常不滿意 : 26
+	不滿意 : 19
+	滿意 : 96
+}
+{
+phone_number : (02)2388-8080
+description : 近捷運西門站６號出口！士林人氣港式茶餐廳【老抽茶餐廳(西門店)】提供多樣道地港點、甜點及飲品，給您平價好滋味，彷彿穿越時空置身於香港！
+url : http://www.gomaji.com/Taipei_p155236.html
+image : http://pic.gomaji.com/img.php?type=product&id=155236&size=r
+orign_price : 300
+address : 台北市萬華區成都路32號(近捷運西門站6號出口)
+open_time : 週一至週日 12:00~22:30
+productID : 155236
+price : 209
+name : 老抽茶餐廳
+score : 
+	非常滿意 : 118
+	普通 : 63
+	非常不滿意 : 6
+	不滿意 : 12
+	滿意 : 78
+}
+{
+phone_number : (02)2311-0215
+description : 迎接炎夏的來臨！【瓦法奇朵 Waffogato】提供份量十足、爽口開胃的涼麵套餐，清爽可口的時蔬、Ｑ彈有勁的麵條，絕對讓您大呼過癮！
+url : http://www.gomaji.com/Taipei_p160752.html
+image : http://pic.gomaji.com/img.php?type=product&id=160752&size=r
+orign_price : 274
+address : 台北市中正區信陽街29號(近捷運台北車站站、臺北火車站、站前商圈)
+open_time : 週一至週日 11:30~22:00
+productID : 160752
+price : 89
+name : 瓦法奇朵 Waffogato
+score : 
+	非常滿意 : 941
+	普通 : 669
+	非常不滿意 : 310
+	不滿意 : 208
+	滿意 : 965
+}
+{
+phone_number : (02)2522-1369
+description : 細細品嚐香醇又濃郁的咖啡香，感受這悠閒的時光！【coffee blablabla】從一顆生豆到一杯好咖啡，有說不完的bla bla bla～
+url : http://www.gomaji.com/Taipei_p164156.html
+image : http://pic.gomaji.com/img.php?type=product&id=164156&size=r
+orign_price : 100
+address : 台北市中山區南京東路二段6號(近捷運松江南京站)
+open_time : 週一至週五 07:30~20:00 週六至週日 09:30~18:00
+productID : 164156
+price : 49
+name : coffee blablabla
+score : 
+}
+{
+phone_number : (02)2775-2016
+description : 科學小飛俠、無敵鐵金剛、航海王....你一定不陌生的夢想樂園！【我樂制作所】勾起滿滿童年的熱血回憶，讓您置身於公仔間的用餐環境，好吃又好玩！
+url : http://www.gomaji.com/Taipei_p156489.html
+image : http://pic.gomaji.com/img.php?type=product&id=156489&size=r
+orign_price : 300
+address : 台北市大安區敦化南路一段187巷45號(近捷運忠孝敦化站)
+open_time : 週一至週日 11:00~22:00
+productID : 156489
+price : 199
+name : 我樂制作所
+score : 
+	非常滿意 : 25
+	普通 : 1
+	非常不滿意 : 0
+	不滿意 : 0
+	滿意 : 2
+}
+{
+phone_number : (02)2723-4686
+description : 【O OLAN 黑輪吧】精緻、美味的黑輪深受消費者喜愛，多樣化的選擇滿足每一張挑剔的嘴巴，口口都能品嚐到真材食料帶來的瞬間感動！
+url : http://www.gomaji.com/Taipei_p155123.html
+image : http://pic.gomaji.com/img.php?type=product&id=155123&size=r
+orign_price : 255
+address : 台北市信義區松壽路11號B2
+open_time : 週日至週四 11:00~21:30 週五至週六 11:00~22:00 不定期公休依FB公告為主
+productID : 155123
+price : 165
+name : O OLAN 黑輪吧
+score : 
+	非常滿意 : 4
+	普通 : 6
+	非常不滿意 : 1
+	不滿意 : 0
+	滿意 : 3
+}
+{
+phone_number : (02)2557-9596
+description : 近捷運大橋頭站！【POPPY waffle(寧夏店)】金黃誘人的普羅旺斯嫩煎雞肉鮮嫩夠味，配上咕溜滑順的義大利麵一起享用，美味直達顛峰！
+url : http://www.gomaji.com/Taipei_p159686.html
+image : http://pic.gomaji.com/img.php?type=product&id=159686&size=r
+orign_price : 200
+address : 台北市大同區寧夏路92號1樓(近捷運大橋頭站)
+open_time : 週一至週五 11:00~21:00 週六至週日 10:00~21:00 隔週週一公休
+productID : 159686
+price : 139
+name : POPPY waffle(寧夏店)
+score : 
+	非常滿意 : 31
+	普通 : 3
+	非常不滿意 : 0
+	不滿意 : 2
+	滿意 : 25
+}
+{
+phone_number : (02)8773-2069
+description : 鄰近中崙大潤發，交通便利！【森漢堡】推出折抵優惠，特製無敵總匯牛漢堡、厚切培根起司牛肉堡、夏威夷鮮果牛肉堡等皆為人氣首選，機會難得，要搶要快！
+url : http://www.gomaji.com/Taipei_p156411.html
+image : http://pic.gomaji.com/img.php?type=product&id=156411&size=r
+orign_price : 300
+address : 台北市中山區八德路二段283號(近匯豐銀行(復興分行)、中央日報、中崙大潤發對面)
+open_time : 週一至週五 07:00~16:00 週六 08:00~17:00 每週日公休
+productID : 156411
+price : 199
+name : 森漢堡
+score : 
+	非常滿意 : 71
+	普通 : 6
+	非常不滿意 : 1
+	不滿意 : 0
+	滿意 : 30
+}
+{
+phone_number : (02)2753-1881
+description : 寵物友善餐廳，毛寶貝不用獨自看家~【一直是晴天】濃郁的蕃茄肉醬緊緊依附在Q彈的麵條上，品嚐起來微酸甘甜，帶著滿滿鹹香好滋味，越吃越夠味，捨不得停下來！
+url : http://www.gomaji.com/Taipei_p155394.html
+image : http://pic.gomaji.com/img.php?type=product&id=155394&size=r
+orign_price : 300
+address : 台北市信義區忠孝東路四段553巷2弄5號1樓(近捷運市政府站)
+open_time : 週日至週一 11:30~21:00 週三至週六 11:30~21:30 每週二公休
+productID : 155394
+price : 199
+name : 一直是晴天
+score : 
+	非常滿意 : 2
+	普通 : 2
+	非常不滿意 : 1
+	不滿意 : 0
+	滿意 : 3
+}
+{
+phone_number : (02)2314-6168
+description : 【瑪琪朵義式廚房】推出雙人義式饗宴，多種創意美味任君選擇，價格平實又超值划算、份量十足，肯定吃得滿載而歸，還能欣賞慕夏風格的畫作！
+url : http://www.gomaji.com/Taipei_p156564.html
+image : http://pic.gomaji.com/img.php?type=product&id=156564&size=r
+orign_price : 572
+address : 台北市萬華區峨嵋街37號4樓
+open_time : 週一至週日 11:00~22:00
+productID : 156564
+price : 299
+name : 瑪琪朵義式廚房(西門店)
+score : 
+	非常滿意 : 468
+	普通 : 316
+	非常不滿意 : 58
+	不滿意 : 88
+	滿意 : 617
+}
+]
