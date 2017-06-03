@@ -5,6 +5,17 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+def GetRate(name):
+        try:
+	    resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/textsearch/json?query="+name+"&key=AIzaSyAIt5DelcTj3pY_XyCetdR2MHAP6B-yXhg&languages=zh")
+	    page = resp.read()
+	    if "\"rating\" : " in page:
+	        return page.split("\"rating\" : ")[1].split(",")[0]
+	        return
+        except:
+            pass
+	return "NO RATE"
+
 def GetScore(page_source):
         Sdict = dict()
         if "<ul class=\"abox l\">" in page_source:
@@ -61,6 +72,7 @@ def Crawler(info):
 	for x in tmpp:
 		if "\"name\"" in x:
 			Rdict['name'] = x.split("\"")[3].split(" - GOMAJI")[0]
+			#Rdict['rate'] = GetRate(Rdict['name'])
 		elif "\"productID\"" in x:
 			Rdict['productID'] = x.split("\"")[3]
 		elif "\"image\"" in x:
@@ -90,6 +102,8 @@ def Crawler(info):
 	print "{"
 	for x in Rdict:
 		print x+" : "+Rdict[x]
+        print "rate : "+GetRate(Rdict['name'])
+
 	print "score : "
 	for x in Sdict:
 		print "\t"+x+" : "+Sdict[x]
