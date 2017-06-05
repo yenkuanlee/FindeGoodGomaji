@@ -92,6 +92,7 @@ def Crawler(info):
 		Rdict['open_time'] = page_source.split("<p>營業時間：")[1].split("</p>")[0]
         if "原價 <span><s>$" in page_source:
                 Rdict['orign_price'] = page_source.split("原價 <span><s>$")[1].split("<")[0]
+        Rdict['rate'] = GetRate(Rdict['name'].replace(" ","%20"))
 
 	Sdict = GetScore(page_source)
 
@@ -99,10 +100,17 @@ def Crawler(info):
         if int(Rdict['price']) > 300:return
         if float(Rdict['price']) / float(Rdict['orign_price']) > 0.7:
                 return
+
+        try:
+            if float(Rdict['rate']) < 4.0:
+                return
+        except:
+            pass
+
 	print "{"
 	for x in Rdict:
 		print x+" : "+Rdict[x]
-        print "rate : "+GetRate(Rdict['name'])
+        ###print "rate : "+GetRate(Rdict['name'].replace(" ","%20"))
 
 	print "score : "
 	for x in Sdict:

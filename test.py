@@ -8,4 +8,4 @@ def GetRate(name):
 		return
 	print "NO RATE"
 
-GetRate("陽光番茄蔬食館")
+GetRate("5鄉地%20Cinque%20Terre")
