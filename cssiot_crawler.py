@@ -7,7 +7,7 @@ sys.setdefaultencoding('utf-8')
 
 def GetRate(name):
         try:
-	    resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/textsearch/json?query="+name+"&key=AIzaSyAIt5DelcTj3pY_XyCetdR2MHAP6B-yXhg&languages=zh")
+	    resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/textsearch/json?query="+name+"&key=AIzaSyAflsuokQFSj6t060f01xLIo2LQa5Zxm74&languages=zh")
 	    page = resp.read()
 	    if "\"rating\" : " in page:
 	        return page.split("\"rating\" : ")[1].split(",")[0]
@@ -92,7 +92,7 @@ def Crawler(info):
 		Rdict['open_time'] = page_source.split("<p>營業時間：")[1].split("</p>")[0]
         if "原價 <span><s>$" in page_source:
                 Rdict['orign_price'] = page_source.split("原價 <span><s>$")[1].split("<")[0]
-        Rdict['rate'] = GetRate(Rdict['name'].replace(" ","%20"))
+        ###Rdict['rate'] = GetRate(Rdict['name'].replace(" ","%20"))
 
 	Sdict = GetScore(page_source)
 
@@ -101,6 +101,7 @@ def Crawler(info):
         if float(Rdict['price']) / float(Rdict['orign_price']) > 0.7:
                 return
 
+        Rdict['rate'] = GetRate(Rdict['name'].replace(" ","%20"))
         try:
             if float(Rdict['rate']) < 4.0:
                 return
