@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import urllib2
 def GetRate(name):
-	resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/textsearch/json?query="+name+"&key=AIzaSyAflsuokQFSj6t060f01xLIo2LQa5Zxm74&languages=zh")
+	resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/textsearch/json?query="+name+"&key=AIzaSyAVBk7wo_rABHQTo3JsZCWg0XG3s6zElLE&languages=zh")
 	page = resp.read()
 	if "\"rating\" : " in page:
 		print page.split("\"rating\" : ")[1].split(",")[0]
