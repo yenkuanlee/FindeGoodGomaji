@@ -96,7 +96,7 @@ def Crawler(info):
 
 	Sdict = GetScore(page_source)
 
-        if "新北市" in Rdict['address'] : return
+        #if "新北市" in Rdict['address'] : return
         if int(Rdict['price']) > 500:return
         if float(Rdict['price']) / float(Rdict['orign_price']) > 0.7:
                 return
