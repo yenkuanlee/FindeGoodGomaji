@@ -5,16 +5,40 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+''' ---> Cant use now
 def GetRate(name):
         try:
 	    resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/textsearch/json?query="+name+"&key=AIzaSyAVBk7wo_rABHQTo3JsZCWg0XG3s6zElLE&languages=zh")
 	    page = resp.read()
 	    if "\"rating\" : " in page:
 	        return page.split("\"rating\" : ")[1].split(",")[0]
-	        return
         except:
             pass
 	return "NO RATE"
+'''
+def GetPid(name):
+        try:
+                resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/textsearch/json?query="+name+"&key=AIzaSyAVBk7wo_rABHQTo3JsZCWg0XG3s6zElLE&languages=zh")
+                page = resp.read()
+                if "\"place_id\" : " in page:
+                        return page.split("\"place_id\" : ")[1].split(",")[0].replace("\"","")
+        except:
+                pass
+        return "NO PID"
+def GetRate(name):
+        pid = GetPid(name)
+        if pid == "NO PID":
+                return "NO RATE"
+        try:
+                resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/details/json?place_id="+pid+"&key=AIzaSyAIt5DelcTj3pY_XyCetdR2MHAP6B-yXhg")
+                page = resp.read()
+                if "\"rating\" : " in page:
+                        return page.split("\"rating\" : ")[1].split(",")[0]
+        except:
+                pass
+        return "NO RATE"
+
+
 
 def GetScore(page_source):
         Sdict = dict()
