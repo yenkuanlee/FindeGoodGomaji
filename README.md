@@ -6,4 +6,4 @@ $ python GetInfo.py > info.txt
 
 $ python GetTaipeiInfo.py info.txt > info2.txt
 
-$ python cssiot_crawler.py info2.txt > output.txt
+$ python crawler.py info2.txt
