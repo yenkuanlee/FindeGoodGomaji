@@ -9,7 +9,7 @@ sys.setdefaultencoding('utf-8')
 ScoreFlag = True
 AllowNoRate = True
 U_price = 200
-U_discount = 0.6
+U_discount = 0.7
 B_rate = 4.0
 
 # Display
