@@ -7,7 +7,8 @@ sys.setdefaultencoding('utf-8')
 
 # Argument
 ScoreFlag = True
-AllowNoRate = True
+ScoreCondition = False
+AllowNoRate = False
 U_price = 200
 U_discount = 0.7
 B_rate = 4.0
@@ -49,6 +50,28 @@ while True:
                 continue
         except:
             continue
+
+        try:
+            Score = J[x]["Sdict"].keys()
+            for xx in Score:
+                if xx == "非常滿意":
+                    a = int(J[x]["Sdict"][xx])
+                elif xx == "滿意":
+                    b = int(J[x]["Sdict"][xx])
+                elif xx == "普通":
+                    c = int(J[x]["Sdict"][xx])
+                elif xx == "不滿意":
+                    d = int(J[x]["Sdict"][xx])
+                elif xx == "非常不滿意":
+                    e = int(J[x]["Sdict"][xx])
+        
+            if not ScoreCondition:
+                pass
+            elif (a+b) < 5*(c+d+e) :
+                continue
+        except:
+            pass
+
         for y in info:
             print y+"\t\t"+J[x][y]
         try:
