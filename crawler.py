@@ -2,20 +2,33 @@
 # Kevin Yen-Kuan Lee
 import urllib2
 import sys
+import json
 reload(sys)
 sys.setdefaultencoding('utf-8')
+RateDict = dict()
+fr = open('rate.index','r')
+while True:
+    line = fr.readline()
+    if not line:
+        break
+    line = line.replace("\n","")
+    tmp = line.split("\t")
+    try:
+        RateDict[tmp[0]] = tmp[1]
+    except:
+        pass
+fr.close()
 
-''' ---> Cant use now
-def GetRate(name):
-        try:
-	    resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/textsearch/json?query="+name+"&key=AIzaSyAVBk7wo_rABHQTo3JsZCWg0XG3s6zElLE&languages=zh")
-	    page = resp.read()
-	    if "\"rating\" : " in page:
-	        return page.split("\"rating\" : ")[1].split(",")[0]
-        except:
-            pass
-	return "NO RATE"
-'''
+OldResult = dict()
+fr = open('result.json','r')
+while True:
+    line = fr.readline()
+    if not line:
+        break
+    OldResult = json.loads(line)
+    break
+fr.close()
+
 def GetPid(name):
         try:
                 resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/textsearch/json?query="+name+"&key=AIzaSyAVBk7wo_rABHQTo3JsZCWg0XG3s6zElLE&languages=zh")
@@ -75,7 +88,10 @@ def GetComment(info):
                 print "\tDate : "+tmp[i].split("<div class=\"r\">")[1].split("</div>")[0]
                 print "\t}"
 
+Cdict = dict()
 def Crawler(info):
+        global RateDict
+        global Cdict
 	url = ""
 	if "http" in info:
 		url = info
@@ -96,7 +112,6 @@ def Crawler(info):
 	for x in tmpp:
 		if "\"name\"" in x:
 			Rdict['name'] = x.split("\"")[3].split(" - GOMAJI")[0]
-			#Rdict['rate'] = GetRate(Rdict['name'])
 		elif "\"productID\"" in x:
 			Rdict['productID'] = x.split("\"")[3]
 		elif "\"image\"" in x:
@@ -116,37 +131,24 @@ def Crawler(info):
 		Rdict['open_time'] = page_source.split("<p>營業時間：")[1].split("</p>")[0]
         if "原價 <span><s>$" in page_source:
                 Rdict['orign_price'] = page_source.split("原價 <span><s>$")[1].split("<")[0]
-        ###Rdict['rate'] = GetRate(Rdict['name'].replace(" ","%20"))
 
-	Sdict = GetScore(page_source)
+	Rdict['Sdict'] = GetScore(page_source)
 
-        #if "新北市" in Rdict['address'] : return
-        if int(Rdict['price']) > 500:return
-        if float(Rdict['price']) / float(Rdict['orign_price']) > 0.7:
+        if int(Rdict['price']) > 300:return
+        if float(Rdict['price']) / float(Rdict['orign_price']) > 0.8:
                 return
 
         Rdict['discount'] = str(float(Rdict['price']) / float(Rdict['orign_price']))
-        Rdict['rate'] = GetRate(Rdict['name'].replace(" ","%20"))
+        if Rdict['productID'] in RateDict:
+            Rdict['rate'] = RateDict[Rdict['productID']]
+        else:
+            Rdict['rate'] = GetRate(Rdict['name'].replace(" ","%20"))
+            RateDict[Rdict['productID']] = Rdict['rate']
+            print "Call GetRate : "+Rdict['name']
+            #Rdict['rate'] = "TESTTEST"
 
-        try:
-            if float(Rdict['rate']) < 3.0:
-                return
-        except:
-            pass
+        Cdict[Rdict["productID"]] = Rdict
 
-	print "{"
-	for x in Rdict:
-		print x+" : "+Rdict[x]
-        ###print "rate : "+GetRate(Rdict['name'].replace(" ","%20"))
-
-	print "score : "
-	for x in Sdict:
-		print "\t"+x+" : "+Sdict[x]
-	#if Cflag:
-	#	print "comment : "
-	#	GetComment(info)
-	print "}"
-print "["
 f = open(sys.argv[1],'r')
 while True:
 	line = f.readline()
@@ -156,6 +158,45 @@ while True:
 		Crawler(line)
 	except:
 		print "error : "+line
-print "]"
 
-###Crawler("Taiwan_p142363")
+Joutput = json.dumps(Cdict)
+fw = open('result.json','w')
+fw.write(Joutput)
+fw.close()
+
+index_update = open('rate.index','w')
+for x in RateDict:
+    index_update.write(x+"\t"+RateDict[x]+"\n")
+index_update.close()
+
+
+
+def send_email(recipient, subject, body):
+    import smtplib
+    user = ""
+    pwd = ""
+    gmail_user = user
+    gmail_pwd = pwd
+    FROM = user
+    TO = recipient if type(recipient) is list else [recipient]
+    SUBJECT = subject
+    TEXT = body
+
+    # Prepare actual message
+    message = """From: %s\nTo: %s\nSubject: %s\n\n%s
+    """ % (FROM, ", ".join(TO), SUBJECT, TEXT)
+    try:
+        server_ssl = smtplib.SMTP_SSL("smtp.gmail.com", 465)
+        server_ssl.ehlo() # optional, called by login()
+        server_ssl.login(gmail_user, gmail_pwd)
+        # ssl server doesn't support or need tls, so don't call server_ssl.starttls() 
+        server_ssl.sendmail(FROM, TO, message)
+        #server_ssl.quit()
+        server_ssl.close()
+        print 'successfully sent the mail'
+    except Exception,e:
+        print "failed to send mail"
+for x in Cdict:
+    if x not in OldResult:
+        print "new item : "+x
+        send_email("yenkuanlee@gmail.com",Cdict[x]["name"],"[name]\t\t"+Cdict[x]["name"]+"\n\n[discount]\t\t"+Cdict[x]["discount"]+"\n\n[price]\t\t"+Cdict[x]["price"]+"\n\n[orign_price]\t\t"+Cdict[x]["orign_price"]+"\n\n[rate]\t\t"+Cdict[x]["rate"]+"\n\n[phone_number]\t\t"+Cdict[x]["phone_number"]+"\n\n[productID]\t\t"+Cdict[x]["productID"]+"\n\n[url]\t\t"+Cdict[x]["url"]+"\n\n[open_time]\t\t"+Cdict[x]["open_time"]+"\n\n[address]\t\t"+Cdict[x]["address"]+"\n\n[description]\t\t"+Cdict[x]["description"])
