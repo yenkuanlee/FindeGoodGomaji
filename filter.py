@@ -11,7 +11,7 @@ ScoreCondition = False
 AllowNoRate = False
 U_price = 200
 U_discount = 0.7
-B_rate = 4.0
+B_rate = 3.0
 
 # Display
 info = list()
