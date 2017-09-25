@@ -20,8 +20,8 @@ info.append('discount')
 info.append('price')
 info.append('orign_price')
 info.append('rate')
-info.append('phone_number')
-info.append('productID')
+#info.append('phone_number')
+#info.append('productID')
 info.append('url')
 info.append('open_time')
 info.append('address')
@@ -67,6 +67,7 @@ while True:
         
             if not ScoreCondition:
                 pass
+            # ScoreCondition
             elif (a+b) < 5*(c+d+e) :
                 continue
         except:
