@@ -171,11 +171,13 @@ index_update.close()
 
 
 
+import getpass
+user = raw_input("Enter your email address :\n")
+pwd = getpass.getpass()
 def send_email(recipient, subject, body):
     import smtplib
-    import getpass
-    user = raw_input("Enter your email address :\n")
-    pwd = getpass.getpass()
+    global user
+    global pwd
     gmail_user = user
     gmail_pwd = pwd
     FROM = user
