@@ -7,11 +7,11 @@ sys.setdefaultencoding('utf-8')
 
 # Argument
 ScoreFlag = True
-ScoreCondition = False
-AllowNoRate = False
-U_price = 200
+ScoreCondition = True
+AllowNoRate = True
+U_price = 400
 U_discount = 0.7
-B_rate = 3.0
+B_rate = 3.5
 
 # Display
 info = list()
@@ -65,10 +65,18 @@ while True:
                 elif xx == "非常不滿意":
                     e = int(J[x]["Sdict"][xx])
         
+            SCFLAG = True
             if not ScoreCondition:
-                pass
+                SCFLAG = False
+
             # ScoreCondition
-            elif (a+b) < 5*(c+d+e) :
+            SClist = list()
+            SClist.append( (a+b) > 10*(d+e) )
+            SClist.append( (a+b+c+d+e) > 20 )
+            for sc in SClist:
+                SCFLAG = SCFLAG and sc
+
+            if not SCFLAG:
                 continue
         except:
             pass
