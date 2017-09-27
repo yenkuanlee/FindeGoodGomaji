@@ -6,10 +6,10 @@ import json
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-api_key = sys.argv[1]
-email_send_to = sys.argv[2]
-user = sys.argv[3]
-pwd = sys.argv[4]
+api_key = sys.argv[2]
+email_send_to = sys.argv[3]
+user = sys.argv[4]
+pwd = sys.argv[5]
 
 
 RateDict = dict()
@@ -207,6 +207,7 @@ def send_email(recipient, subject, body):
         server_ssl.close()
         print 'successfully sent the mail'
     except Exception,e:
+        print e
         print "failed to send mail"
 for x in Cdict:
     if x not in OldResult:
