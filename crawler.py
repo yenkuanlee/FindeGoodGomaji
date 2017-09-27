@@ -134,7 +134,7 @@ def Crawler(info):
 
 	Rdict['Sdict'] = GetScore(page_source)
 
-        if int(Rdict['price']) > 900:return
+        if int(Rdict['price']) > 1200:return
         #if float(Rdict['price']) / float(Rdict['orign_price']) > 0.9:
         #        return
 
