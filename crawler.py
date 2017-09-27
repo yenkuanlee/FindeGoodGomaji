@@ -5,6 +5,13 @@ import sys
 import json
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
+api_key = sys.argv[1]
+email_send_to = sys.argv[2]
+user = sys.argv[3]
+pwd = sys.argv[4]
+
+
 RateDict = dict()
 fr = open('rate.index','r')
 while True:
@@ -31,7 +38,7 @@ fr.close()
 
 def GetPid(name):
         try:
-                resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/textsearch/json?query="+name+"&key=AIzaSyAVBk7wo_rABHQTo3JsZCWg0XG3s6zElLE&languages=zh")
+                resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/textsearch/json?query="+name+"&key="+api_key+"&languages=zh")
                 page = resp.read()
                 if "\"place_id\" : " in page:
                         return page.split("\"place_id\" : ")[1].split(",")[0].replace("\"","")
@@ -43,7 +50,7 @@ def GetRate(name):
         if pid == "NO PID":
                 return "NO RATE"
         try:
-                resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/details/json?place_id="+pid+"&key=AIzaSyAIt5DelcTj3pY_XyCetdR2MHAP6B-yXhg")
+                resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/details/json?place_id="+pid+"&key="+api_key)
                 page = resp.read()
                 if "\"rating\" : " in page:
                         return page.split("\"rating\" : ")[1].split(",")[0]
@@ -170,10 +177,12 @@ for x in RateDict:
 index_update.close()
 
 
+if email_send_to == "NOBODY":
+    exit(0)
 
-import getpass
-user = raw_input("Enter your email address :\n")
-pwd = getpass.getpass()
+#import getpass
+#user = raw_input("Enter your email address : ")
+#pwd = getpass.getpass()
 def send_email(recipient, subject, body):
     import smtplib
     global user
@@ -202,4 +211,4 @@ def send_email(recipient, subject, body):
 for x in Cdict:
     if x not in OldResult:
         print "new item : "+x
-        send_email("yenkuanlee@gmail.com",Cdict[x]["name"],"[name]\t\t"+Cdict[x]["name"]+"\n\n[discount]\t\t"+Cdict[x]["discount"]+"\n\n[price]\t\t"+Cdict[x]["price"]+"\n\n[orign_price]\t\t"+Cdict[x]["orign_price"]+"\n\n[rate]\t\t"+Cdict[x]["rate"]+"\n\n[phone_number]\t\t"+Cdict[x]["phone_number"]+"\n\n[productID]\t\t"+Cdict[x]["productID"]+"\n\n[url]\t\t"+Cdict[x]["url"]+"\n\n[open_time]\t\t"+Cdict[x]["open_time"]+"\n\n[address]\t\t"+Cdict[x]["address"]+"\n\n[description]\t\t"+Cdict[x]["description"])
+        send_email(email_send_to,Cdict[x]["name"],"[name]\t\t"+Cdict[x]["name"]+"\n\n[discount]\t\t"+Cdict[x]["discount"]+"\n\n[price]\t\t"+Cdict[x]["price"]+"\n\n[orign_price]\t\t"+Cdict[x]["orign_price"]+"\n\n[rate]\t\t"+Cdict[x]["rate"]+"\n\n[phone_number]\t\t"+Cdict[x]["phone_number"]+"\n\n[productID]\t\t"+Cdict[x]["productID"]+"\n\n[url]\t\t"+Cdict[x]["url"]+"\n\n[open_time]\t\t"+Cdict[x]["open_time"]+"\n\n[address]\t\t"+Cdict[x]["address"]+"\n\n[description]\t\t"+Cdict[x]["description"])
