@@ -179,7 +179,8 @@ fw.close()
 
 index_update = open('rate.index','w')
 for x in RateDict:
-    index_update.write(x+"\t"+RateDict[x]+"\n")
+    if x in Cdict:
+        index_update.write(x+"\t"+RateDict[x]+"\n")
 index_update.close()
 
 
