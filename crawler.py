@@ -3,6 +3,7 @@
 import urllib2
 import sys
 import json
+import re
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -138,6 +139,10 @@ def Crawler(info):
 		Rdict['open_time'] = page_source.split("<p>營業時間：")[1].split("</p>")[0]
         if "原價 <span><s>$" in page_source:
                 Rdict['orign_price'] = page_source.split("原價 <span><s>$")[1].split("<")[0]
+        if "<li>消費資訊" in page_source:
+                AvgTmp = page_source.split("<li>消費資訊")[1].split("</li>")[0]
+                if "均消" in AvgTmp:
+                    Rdict['avg_price'] = re.search(r'\d+', AvgTmp.split("均消")[1]).group()
 
 	Rdict['Sdict'] = GetScore(page_source)
 
@@ -163,7 +168,8 @@ while True:
 	line = line.replace("\n","")
 	try:
 		Crawler(line)
-	except:
+        except Exception,e:
+                print e
 		print "error : "+line
 
 Joutput = json.dumps(Cdict)

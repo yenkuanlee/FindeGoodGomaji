@@ -9,7 +9,8 @@ sys.setdefaultencoding('utf-8')
 ScoreFlag = True    # default = True
 ScoreCondition = True  # default = True
 AllowNoRate = False  # default = True
-U_price = 500     # default = 400
+U_price = 400     # default = 400
+U_avg_price = 400   # default = 400
 U_discount = 0.8    # default = 0.7
 B_rate = 3.5        # default = 3.5
 
@@ -19,6 +20,7 @@ info.append('name')
 info.append('discount')
 info.append('price')
 info.append('orign_price')
+info.append('avg_price')
 info.append('rate')
 #info.append('phone_number')
 #info.append('productID')
@@ -46,6 +48,11 @@ while True:
                 continue
             if int(J[x]['price']) > U_price:
                 continue
+            try:
+                if int(J[x]['avg_price']) > U_avg_price:
+                    continue
+            except:
+                pass
             if float(J[x]['discount']) > U_discount:
                 continue
         except:
@@ -80,7 +87,10 @@ while True:
             pass
 
         for y in info:
-            print y+"\t\t"+J[x][y]
+            try:
+                print y+"\t\t"+J[x][y]
+            except:
+                pass
         try:
             if ScoreFlag:
                 print "Sdict"
