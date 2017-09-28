@@ -6,12 +6,12 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 # Argument
-ScoreFlag = True
-ScoreCondition = True
-AllowNoRate = True
-U_price = 400
-U_discount = 0.7
-B_rate = 3.5
+ScoreFlag = True    # default = True
+ScoreCondition = True  # default = True
+AllowNoRate = False  # default = True
+U_price = 500     # default = 400
+U_discount = 0.8    # default = 0.7
+B_rate = 3.5        # default = 3.5
 
 # Display
 info = list()
@@ -66,15 +66,13 @@ while True:
                     e = int(J[x]["Sdict"][xx])
         
             SCFLAG = True
-            if not ScoreCondition:
-                SCFLAG = False
-
-            # ScoreCondition
-            SClist = list()
-            SClist.append( (a+b) > 10*(d+e) )
-            SClist.append( (a+b+c+d+e) > 20 )
-            for sc in SClist:
-                SCFLAG = SCFLAG and sc
+            if ScoreCondition:
+                # ScoreCondition
+                SClist = list()
+                SClist.append( (a+b) > 10*(d+e) )
+                SClist.append( (a+b+c+d+e) > 20 )
+                for sc in SClist:
+                    SCFLAG = SCFLAG and sc
 
             if not SCFLAG:
                 continue
