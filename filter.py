@@ -8,7 +8,7 @@ sys.setdefaultencoding('utf-8')
 # Argument
 ScoreFlag = True    # default = True
 ScoreCondition = True  # default = True
-AllowNoRate = False  # default = True
+AllowNoRate = True  # default = True
 AllowNoAvgPrice = True # default = True
 U_price = 400     # default = 400
 U_avg_price = 400   # default = 400
