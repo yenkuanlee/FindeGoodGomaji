@@ -26,7 +26,7 @@ info.append('rate')
 #info.append('phone_number')
 #info.append('productID')
 info.append('url')
-info.append('open_time')
+#info.append('open_time')
 info.append('address')
 info.append('description')
 
