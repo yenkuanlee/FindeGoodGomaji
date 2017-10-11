@@ -107,6 +107,10 @@ while True:
                     tmpp += "&nbsp;&nbsp;&nbsp;&nbsp;"
                 elif y == "url":
                     tmpp += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+                elif y == "orign_price":
+                    tmpp = tmpp[:len(tmpp)-6]
+                elif y == "avg_price":
+                    tmpp = tmpp[:len(tmpp)-6]
                 print y+tmpp+J[x][y]+"\n"
             except:
                 pass
