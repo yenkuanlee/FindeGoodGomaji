@@ -95,14 +95,24 @@ while True:
 
         for y in info:
             try:
-                print y+"\t\t"+J[x][y]
+                #print y+"\t\t"+J[x][y]
+                print y,
+                for i in range(20-len(y)):
+                    print "&nbsp;",
+                print J[x][y]+"\n"
             except:
                 pass
         try:
             if ScoreFlag:
-                print "Sdict"
+                print "Sdict\n"
                 for z in J[x]['Sdict']:
-                    print "\t\t"+z+"\t"+J[x]['Sdict'][z]
+                    for i in range(10):
+                        print "&nbsp;",
+                    print z,
+                    for i in range(20-len(z)):
+                        print "&nbsp;",
+                    print J[x]['Sdict'][z]+"\n"
+                    #print "\t\t"+z+"\t"+J[x]['Sdict'][z]
         except:
             pass
         print "\n==============================================================\n"
