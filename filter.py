@@ -94,24 +94,31 @@ while True:
             pass
 
         for y in info:
+            if y == "avg_price":
+                if y not in J[x]:
+                    continue
             try:
                 #print y+"\t\t"+J[x][y]
-                print y,
+                tmpp = ""
                 for i in range(20-len(y)):
-                    print "&nbsp;",
-                print J[x][y]+"\n"
+                    tmpp += "&nbsp;"
+                    ##print "&nbsp;",
+                print y+tmpp+J[x][y]+"\n"
             except:
                 pass
         try:
             if ScoreFlag:
                 print "Sdict\n"
                 for z in J[x]['Sdict']:
+                    tmpp = ""
                     for i in range(10):
-                        print "&nbsp;",
-                    print z,
+                        ##print "&nbsp;",
+                        tmpp += "&nbsp;"
+                    tmppp = ""
                     for i in range(20-len(z)):
-                        print "&nbsp;",
-                    print J[x]['Sdict'][z]+"\n"
+                        tmppp += "&nbsp;"
+                        ##print "&nbsp;",
+                    print tmpp+z+tmppp+J[x]['Sdict'][z]+"\n"
                     #print "\t\t"+z+"\t"+J[x]['Sdict'][z]
         except:
             pass
