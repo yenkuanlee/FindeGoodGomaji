@@ -102,9 +102,11 @@ while True:
                 for i in range(20-len(y)):
                     tmpp += "&nbsp;"
                 if y == "price":
-                    tmpp += "&nbsp;&nbsp;"
+                    tmpp += "&nbsp;&nbsp;&nbsp;"
                 elif y == "rate":
-                    tmpp += "&nbsp;&nbsp;"
+                    tmpp += "&nbsp;&nbsp;&nbsp;&nbsp;"
+                elif y == "url":
+                    tmpp += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
                 print y+tmpp+J[x][y]+"\n"
             except:
                 pass
