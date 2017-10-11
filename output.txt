@@ -4,7 +4,7 @@ price		75
 orign_price		100
 avg_price		85
 rate		4.2
-url		http://www.gomaji.com/Taipei_p176837.html
+url		[http://www.gomaji.com/Taipei_p176837.html](http://www.gomaji.com/Taipei_p176837.html)
 open_time		週日至週四 17:00~03:00 週五至週六及例假日前夕 17:00~05:00 公休日詳見FB
 address		台北市松山區市民大道五段37號(近松山文創園區、劉媽媽涼麵旁)
 description		正宗暹羅路邊攤滋味。第一品牌泰國手標牌茶葉通過 GMP 認證！【泰讚了Thai Like Tea(松菸市民店)】以砂糖取代果糖，甜而不膩的香柔餘韻直呼「泰」美味！
