@@ -98,11 +98,13 @@ while True:
                 if y not in J[x]:
                     continue
             try:
-                #print y+"\t\t"+J[x][y]
                 tmpp = ""
                 for i in range(20-len(y)):
                     tmpp += "&nbsp;"
-                    ##print "&nbsp;",
+                if y == "price":
+                    tmpp += "&nbsp;&nbsp;"
+                elif y == "rate":
+                    tmpp += "&nbsp;&nbsp;"
                 print y+tmpp+J[x][y]+"\n"
             except:
                 pass
@@ -112,14 +114,11 @@ while True:
                 for z in J[x]['Sdict']:
                     tmpp = ""
                     for i in range(10):
-                        ##print "&nbsp;",
                         tmpp += "&nbsp;"
                     tmppp = ""
                     for i in range(20-len(z)):
                         tmppp += "&nbsp;"
-                        ##print "&nbsp;",
                     print tmpp+z+tmppp+J[x]['Sdict'][z]+"\n"
-                    #print "\t\t"+z+"\t"+J[x]['Sdict'][z]
         except:
             pass
         print "\n==============================================================\n"
