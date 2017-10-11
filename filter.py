@@ -99,7 +99,7 @@ while True:
                     continue
             try:
                 tmpp = ""
-                for i in range(20-len(y)):
+                for i in range(30-len(y)):
                     tmpp += "&nbsp;"
                 if y == "price":
                     tmpp += "&nbsp;&nbsp;&nbsp;"
@@ -118,7 +118,7 @@ while True:
                     for i in range(10):
                         tmpp += "&nbsp;"
                     tmppp = ""
-                    for i in range(20-len(z)):
+                    for i in range(30-len(z)):
                         tmppp += "&nbsp;"
                     print tmpp+z+tmppp+J[x]['Sdict'][z]+"\n"
         except:
