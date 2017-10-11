@@ -1,4 +1,6 @@
 # FindeGoodGomaji
+使用 ssh-key 每天自動更新
+
 找到 Gomaji 中便宜, 折扣高, 評價高的商品
 
 
