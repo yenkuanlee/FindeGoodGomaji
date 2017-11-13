@@ -63,25 +63,25 @@ def GetRate(name):
 
 def GetScore(page_source):
         Sdict = dict()
-        if "<ul class=\"abox l\">" in page_source:
-                tmp = page_source.split("<ul class=\"abox l\">")[1].split("</ul>")[0]
+        if "<ul class=\"abox r\">" in page_source:
+                tmp = page_source.split("<ul class=\"abox r\">")[1].split("</ul>")[0]
                 tmpp = tmp.split("\n")
-                for x in tmpp:
-                        if ">非常滿意<" in x:
-                                tmppp = x.split("</div></li>")[0].split(">")
-                                Sdict['非常滿意'] = tmppp[len(tmppp)-1]
-                        elif ">滿意<" in x:
-                                tmppp = x.split("</div></li>")[0].split(">")
-                                Sdict['滿意'] = tmppp[len(tmppp)-1]
-                        elif ">普通<" in x:
-                                tmppp = x.split("</div></li>")[0].split(">")
-                                Sdict['普通'] = tmppp[len(tmppp)-1]
-                        elif ">不滿意<" in x:
-                                tmppp = x.split("</div></li>")[0].split(">")
-                                Sdict['不滿意'] = tmppp[len(tmppp)-1]
-                        elif ">非常不滿意<" in x:
-                                tmppp = x.split("</div></li>")[0].split(">")
-                                Sdict['非常不滿意'] = tmppp[len(tmppp)-1]
+                for i in range(len(tmpp)):
+                        if ">非常滿意<" in tmpp[i]:
+                                tmppp = tmpp[i+2].split("</div>")[0].split(">")[1]
+                                Sdict['非常滿意'] = tmppp
+                        elif ">滿意<" in tmpp[i]:
+                                tmppp = tmpp[i+2].split("</div>")[0].split(">")[1]
+                                Sdict['滿意'] = tmppp
+                        elif ">普通<" in tmpp[i]:
+                                tmppp = tmpp[i+2].split("</div>")[0].split(">")[1]
+                                Sdict['普通'] = tmppp
+                        elif ">不滿意<" in tmpp[i]:
+                                tmppp = tmpp[i+2].split("</div>")[0].split(">")[1]
+                                Sdict['不滿意'] = tmppp
+                        elif ">非常不滿意<" in tmpp[i]:
+                                tmppp = tmpp[i+2].split("</div>")[0].split(">")[1]
+                                Sdict['非常不滿意'] = tmppp
         return Sdict
 
 def GetComment(info):
