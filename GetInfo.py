@@ -8,24 +8,28 @@ page_source = response.read()
 tmp = page_source.split("<a href=\"/index.php?city=")
 Uset = set()
 for i in range(1,len(tmp)-1,1):
-	Uset.add("http://www.gomaji.com/index.php?city="+tmp[i].split("\"")[0])
+        Uset.add("http://www.gomaji.com/index.php?city="+tmp[i].split("\"")[0])
 for x in Uset:
-	if "http" in x:continue
-	print x
-
+        if "http" in x:continue
+        print x
 def GetInfo(url,Rset):
-	response = urllib2.urlopen(url)
-	page_source = response.read()
-	tmp = page_source.split(".html\" target=\"_blank\"")
-	for i in range(0,len(tmp)-1,1):
-		tmpp = tmp[i].split("\"")
-		Rset.add(tmpp[len(tmpp)-1])
-	return Rset
+        try:
+            response = urllib2.urlopen(url)
+        except:
+            return "ERROR"
+        page_source = response.read()
+        tmp = page_source.split(".html\" target=\"_blank\"")
+        for i in range(0,len(tmp)-1,1):
+                tmpp = tmp[i].split("\"")
+                Rset.add(tmpp[len(tmpp)-1])
+        return Rset
 
 Rset = set()
 for x in Uset:
-	Rset = GetInfo(x,Rset)
+        kevinn = GetInfo(x,Rset)
+        if kevinn != "ERROR":
+            Rset = GetInfo(x,Rset)
 
 for x in Rset:
-	if "http" not in x:
-		print x
+        if "http" not in x:
+                print x
