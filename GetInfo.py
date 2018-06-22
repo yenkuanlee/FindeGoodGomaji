@@ -21,7 +21,10 @@ def GetInfo(url,Rset):
         tmp = page_source.split(".html\" target=\"_blank\"")
         for i in range(0,len(tmp)-1,1):
                 tmpp = tmp[i].split("\"")
-                Rset.add(tmpp[len(tmpp)-1])
+                Fuck20180622 = tmpp[len(tmpp)-1].split("/")
+                #print Fuck20180622[len(Fuck20180622)-1]
+                #Rset.add(tmpp[len(tmpp)-1])
+                Rset.add(Fuck20180622[len(Fuck20180622)-1])
         return Rset
 
 Rset = set()
