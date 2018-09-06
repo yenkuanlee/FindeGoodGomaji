@@ -119,7 +119,7 @@ def GetPageInfo(url):
     except Exception as e:
         return {"status": "ERROR", "log": str(e)}
     page_source = response.read().replace("\n","")
-    tmp = page_source.split("product-detail relative")
+    tmp = page_source.split("product-item border")
     for i in range(1,len(tmp)-1,1):
         Idict = dict()
         # Get 1-Info
