@@ -57,7 +57,7 @@ while True:
                     tmppp = ""
                     for i in range(30-len(z)):
                         tmppp += "&nbsp;"
-                    print tmpp+z+tmppp+J[x]['Sdict'][z]+"\n"
+                    print tmpp+z+tmppp+str(J[x]['Sdict'][z])+"\n"
         except:
             pass
         print "\n==============================================================\n"
