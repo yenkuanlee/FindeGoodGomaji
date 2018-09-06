@@ -2,9 +2,11 @@
 import json
 import urllib2
 import re
+import time
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
+api_key = sys.argv[1]
 Cdict = dict()
 Fdict = dict()
 f = open('filter.conf')
@@ -25,6 +27,28 @@ TaipeiFoodUrl = "https://www.gomaji.com/ch/7?sort=0&city=1&dist_group="
 Ulist = list()
 for i in range(16):
     Ulist.append(TaipeiFoodUrl+str(i+1))
+
+def GetPid(name):
+    try:
+        resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/textsearch/json?query="+name+"&key="+api_key+"&languages=zh")
+        page = resp.read()
+        if "\"place_id\" : " in page:
+            return page.split("\"place_id\" : ")[1].split(",")[0].replace("\"","")
+    except:
+        pass
+    return "NO PID"
+def GetGoogleRate(name):
+    pid = GetPid(name)
+    if pid == "NO PID":
+        return "NO RATE"
+    try:
+        resp = urllib2.urlopen("https://maps.googleapis.com/maps/api/place/details/json?place_id="+pid+"&key="+api_key)
+        page = resp.read()
+        if "\"rating\" : " in page:
+            return page.split("\"rating\" : ")[1].split(",")[0]
+    except:
+        pass
+    return "NO RATE"
 
 def GetProductRate(gid):
     Rdict = dict()
@@ -132,9 +156,14 @@ def GetPageInfo(url):
             Idict['gomaji_rate_list'] = "NULL"
             Idict['gomaji_rate_count'] = "NULL"
 
+        # Get 2-Info
         Pinfo = GetProductInfo(url)
         for p in Pinfo:
             Idict[p] = Pinfo[p]
+
+        # Get Google Rate
+        Idict['google_rate'] = GetGoogleRate(name)
+
         Cdict[gid] = Idict
         Rlist.append(Idict)
     return Rlist
@@ -145,17 +174,8 @@ fw = open('result.json','w')
 fw.write(json.dumps(Cdict))
 fw.close()
 
-X = GetProductRate("40015")
-print(X["score_cat_list"])
-#print(len(Cdict))
-#for x in Cdict:
-#    print x
-'''
-for x in Xdict:
-    for y in x:
-        print(y+"\t"+str(x[y]))
-    print("")
-    #print(x['name']+", "+str(x['price'])+", "+str(x['discount'])+", "+str(x['gomaji_rate']))
-    #print(x['url'])
-    #print(GetProductInfo(x['url']))
-'''
+# Update Rate Index
+fw = open('rate.index','w')
+for pid in Cdict:
+    fw.write(pid+"\t"+Cdict[pid]['google_rate']+"\t"+str(time.time())+"\n")
+fw.close()
