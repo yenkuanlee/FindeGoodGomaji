@@ -23,6 +23,20 @@ while True:
     except:
         pass
 
+RateDict = dict()
+fr = open('rate.index','r')
+while True:
+    line = fr.readline()
+    if not line:
+        break
+    line = line.replace("\n","")
+    tmp = line.split("\t")
+    try:
+        RateDict[tmp[0]] = (tmp[1],float(tmp[2])) # rate, time
+    except:
+        pass
+fr.close()
+
 TaipeiFoodUrl = "https://www.gomaji.com/ch/7?sort=0&city=1&dist_group="
 Ulist = list()
 for i in range(16):
@@ -162,8 +176,16 @@ def GetPageInfo(url):
             Idict[p] = Pinfo[p]
 
         # Get Google Rate
-        Idict['google_rate'] = GetGoogleRate(name)
-
+        Ntime = time.time()
+        if gid in RateDict:
+            if (Ntime-RateDict[gid][1]) >= (86400*7):
+                Idict['google_rate'] = GetGoogleRate(name)
+                RateDict[gid] = (Idict['google_rate'],Ntime)
+            else:
+                Idict['google_rate'] = RateDict[gid][0]
+        else:
+            Idict['google_rate'] = GetGoogleRate(name)
+            RateDict[gid] = (Idict['google_rate'],Ntime)
         Cdict[gid] = Idict
         Rlist.append(Idict)
     return Rlist
@@ -176,6 +198,6 @@ fw.close()
 
 # Update Rate Index
 fw = open('rate.index','w')
-for pid in Cdict:
-    fw.write(pid+"\t"+Cdict[pid]['google_rate']+"\t"+str(time.time())+"\n")
+for pid in RateDict:
+    fw.write(pid+"\t"+str(RateDict[pid][0])+"\t"+str(RateDict[pid][1])+"\n")
 fw.close()
