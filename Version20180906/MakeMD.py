@@ -52,14 +52,14 @@ while True:
         try:
             if ScoreFlag:
                 print "Sdict\n"
-                for z in J[x]['Sdict']:
+                for z in range(5):
                     tmpp = ""
                     for i in range(10):
                         tmpp += "&nbsp;"
                     tmppp = ""
-                    for i in range(30-len(z)):
+                    for i in range(30-len(str(z+1))):
                         tmppp += "&nbsp;"
-                    print tmpp+z+tmppp+str(J[x]['Sdict'][z])+"\n"
+                    print tmpp+str(z+1)+tmppp+str(J[x]['Sdict'][str(z+1)])+"\n"
         except Exception as e:
             print("@@@@@@@@@@@")
             print(str(e))
