@@ -58,6 +58,8 @@ while True:
                     for i in range(30-len(z)):
                         tmppp += "&nbsp;"
                     print tmpp+z+tmppp+str(J[x]['Sdict'][z])+"\n"
-        except:
+        except Exception as e:
+            print("@@@@@@@@@@@")
+            print(str(e))
             pass
         print "\n==============================================================\n"

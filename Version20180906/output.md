@@ -16,6 +16,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要1135元起，即可享有【寬心園精緻蔬食料理】A.雙人精緻饗宴 / B.四人豪華饗宴
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -37,6 +39,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要199元起，即可享有【Luwak 盧瓦克咖啡】金色百林咖啡莊園 A.高山肯特阿拉比卡濾掛式咖啡一盒(4包/盒) / B.野生麝香貓濾掛式咖啡一盒(4包/盒) / C.特級禮盒一盒
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -58,6 +62,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要99元起，即可享有【黑橋牌】A.黑橋牌肉酥堅果海苔燒一盒二包(60g/包) / B.黑橋牌減鈉肉乾一包(120g/包) / C.黑橋牌招牌巨無霸夯香腸一包(300g/包) / D.Johnsonville煙燻德國香腸一包(14oz/包) / E.黑橋牌馬告厚燒條子肉乾三包(100g/包) / F.黑橋牌馬告香腸二包(360g/包) / G.黑橋牌(飛魚卵香腸+墨魚香腸)組合一組
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -79,6 +85,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要181元，即可享有【品四方．鳳梨酥】週一至週五可抵用259元消費金額〈特別推薦：鳳梨酥禮盒(8入)、廣式月餅(8入)、手作牛軋糖大小包、手工餅乾禮盒(20入)、手作芋頭酥禮盒(6入)、手工蛋捲小禮盒(5入)、雙饗禮盒(藍莓酥+鳳梨酥，共8入)〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -100,6 +108,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要99元起，即可享有【米夏.費德爾(芝山店)】A.甜蜜午後單人餐 / B.幸福時刻單人餐
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -121,6 +131,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要145元，即可享有【小島遊初張嘴】全新獨享豐盛Brunch餐〈主餐：德式香腸/椒鹽咔啦雞腿排(原味/辣味)/黑胡椒磨菇厚牛寶/西西里雞腿排/韓式辣雞排/椒鹽香煎檸檬鲂魚/香煎彩椒杏鮑菇(素) 任選一 + 黃金脆薯一份 + 陽光歐姆蛋一份 + 鮮蔬凱薩沙拉一份 + 麵包一份 + 幸福甜品寶貝蛋布丁一份 + 飲品：紅茶/綠茶 任選一〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -142,6 +154,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要109元，即可享有【查理布朗CHIRLE BROWN】平假日皆可抵用150元消費金額 〈特別推薦：羅宋、雞蛋布丁、Q餅、塩牛角、富士山、歐克、小巴黎塔、飲品〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -163,6 +177,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要69元，即可享有【吃ㄔ喝ㄏ】週一至週日可抵用100元消費金額〈特別推薦：媽媽的味道、彭派組合、海陸組合、古早味紅蔥頭豬排乾拌麵、古早味雞排拌飯、豬排蛋餅、吃ㄔ台灣味各類炸物、超滿足雞排〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -184,6 +200,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要698元，即可享有【台北寒舍艾麗酒店-LA FARFALLA義式餐廳】頂級義式平假日下午茶單人Buffet無限享用義式料理吃到飽〈特別推薦：現切爐烤美國肋眼牛排、現煮紅燒/清燉牛肉麵、道地義大利麵/燉飯、手工薄餅Pizza、豐富熱食、12款新鮮生菜、沙拉自由配、創意義式冷盤、各式風味起司、精緻Canapé、精巧小漢堡/小可頌、新鮮水果、主廚特製蛋糕甜點、果汁/咖啡/茶品)
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -199,6 +217,8 @@ gomaji_rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 
 url&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://www.gomaji.com/store/35378?pid=214213&amp;gid=30816
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -220,6 +240,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要198元，即可享有【順成蛋糕】香濃芋泥捲一條
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -241,6 +263,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要600元，即可享有【御蓮齋 多國百匯吃到飽】激推素蔬食必吃饗宴X多國百匯Buffet吃到飽〈特別推薦：中式料理(20多道傳統中國功夫素菜)、日式料理(握壽司、抹茶涼麵等)、港式料理、現場蔬食菇類熱炒、養生藥膳(何首烏湯等)、養生木炊鮮蒸、中/西式甜點(杏仁茶+油條等)、新鮮當季水果等多國百匯Buffet吃到飽〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -262,6 +286,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要999元(四人價)，即可享有【春申食府】豪華掛爐櫻桃鴨四人饗宴〈含掛爐櫻桃鴨一份 + 鴨餅皮一籠 + 小黃瓜一份 + 三星蔥一份 + 烏龍茶一壺 + 精緻水果盤一份〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -283,6 +309,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要699元(雙人價)，即可享有【台北六福萬怡酒店-The Lounge】JC CAT 童話下午茶〈特製鳥籠造型甜點架塔上共24品 + 飲品任選二：現沖咖啡/茶，特別推薦：各式精製法式甜點(一禮甜點主廚手工製作可愛甜心JC CAT、馬卡龍、西班牙TAPAS等)、精選咖啡(現磨咖啡(冰/熱)/拿鐵咖啡(冰/熱)/卡布奇諾咖啡(冰/熱)/招牌義大利濃縮咖啡/低咖啡因咖啡)、茶飲茗品(三峽碧螺春/特製鮮奶茶(冰/熱)/特製檸檬茶(冰/熱)/洛神玫瑰花茶(冰))〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -304,6 +332,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要625元，即可享有【小蒙牛頂級麻辣養生鍋】週一至週五中午單人頂級鍋物吃到飽〈特別推薦：安格斯黑牛、頂級牛小排、頂級羊肩肉、頂級梅花豬肉、綜合海鮮盤、藍鯊魚片、滷大腸、牛肚、手打鮮蝦丸、手打花枝丸、新鮮菇類、麵食類、杯裝Hagen Dazs冰淇淋、曠世奇派、瓶裝可樂、各式蛋糕甜點及水果
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -325,6 +355,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要288元起，即可享有【龍富號 鐵板燒】A.雙人超值餐 / B.四人幸福餐 / C.六人超值餐
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -340,6 +372,8 @@ gomaji_rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 
 url&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://www.gomaji.com/store/78989?pid=213576&amp;gid=32959
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -361,6 +395,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要590元，即可享有【慕軒飯店-GUSTOSO義大利餐廳】單人義式料理+Semi Buffet吃到飽〈主餐：炙燒萊姆雞腿佐香料洋菇/烤海鱸魚佐檸檬橄欖鯷魚醬/香蒜油封鴨腿襯醋漬甘蔥 三選一 + 主廚湯品一份 + Semi Buffet吃到飽：現烤手工麵包籃、生菜沙拉區、綜合起司盤、精緻冷盤開胃菜、火腿、現烤披薩區、水果區、精緻甜點、莫凡彼冰淇淋、咖啡及茶飲料〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -382,6 +418,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要750元起，即可享有【泰之雲泰式料理(瑞光店)】A.招牌人氣料理雙人分享餐 / B.主廚推薦超值四人分享餐
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -397,6 +435,8 @@ gomaji_rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 
 url&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://www.gomaji.com/store/112549?pid=213725&amp;gid=64616
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -418,6 +458,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要269元起，即可享有【禮坊】A.焙愛心語-純月禮盒一盒 / B.焙愛心語-星意禮盒一盒 / C.焙愛心語-豪華禮盒一盒 / D.焙愛心語-頂級禮盒一盒
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -439,6 +481,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要269元起，即可享有【禮坊】A.焙愛心語-純月禮盒一盒 / B.焙愛心語-星意禮盒一盒 / C.焙愛心語-豪華禮盒一盒 / D.焙愛心語-頂級禮盒一盒
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -460,6 +504,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要980元，即可享有【北投老爺酒店 - PURE Cuisine 純 ‧ 法式餐廳】部落客推薦！老爺經典純 ‧ 套餐〈主廚創作小品一份 + 開胃菜：慢烤鴨胸薄片佐無花果搭百香果醋/夏季海瓜子白花菜泥佐茴香澄清湯凍/陽明山絲瓜牛乳濃湯佐帆立貝 三選一 + 手工佐餐麵包一份 + 主菜：紐西蘭特級菲力牛排佐多芬式烤洋芋/生煎老虎蝦襯日本山藥佐水煎甜豆/清蒸現流鮮魚大蒜風味油佐薩丁尼亞珍珠麵 三選一 + 甜點：季節限定主廚甜品創作/荔枝慕斯襯莎布蕾餅乾佐糖煎鳳梨夾層/季節水果組合 三選一 + 指定飲品三選一〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -481,6 +527,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要69元，即可享有【唐僧.肉炸雞】平假日皆可抵用100元消費金額〈特別推薦：原味唐僧肉、招牌火焰山、唐僧嫩雞球、滿足桶(腿排4個+雞腿4支)、全家桶(雞翅3支+腿排3個+雞腿2支)、霸王全雞〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -502,6 +550,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要69元，即可享有【吳家刈包.四神湯】平假日皆可抵用100元消費金額〈特別推薦：五花肉刈包、瘦肉刈包、QQ五花刈包(半肥半瘦)、四神湯、刈包皮+花生糖、手作豆漿(大杯)〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -523,6 +573,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要388元，即可享有【新港茶餐廳(西門店)】平假日可抵用500元消費金額〈特別推薦：麻辣蒸燒賣、巧克脆脆流沙西多士、家鄉鹹水餃、什菜粉絲煲、鱈魚米粉鍋、廣式海鮮炒麵、新港臘味煲仔飯〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -544,6 +596,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要75元，即可享有【黑美人小茶棧】平假日皆可抵用100元消費金額〈特別推薦：流淚吐司、溫泉吐司、檸檬可頌、粉紅果粒可頌、手指型馬卡龍、馬卡龍、芒果奶酪〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -565,6 +619,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要399元，即可享有【跳跳蛙親子運動餐廳】親子歡樂時光-最美好的幸福套餐〈主餐：香料嫩骨滷雞腿飯/咕咕豬肉丼飯/咖哩豬肉飯/義式香料焗烤咖哩飯/義式經典肉醬義大利麵/奶油培根義大利麵 任選一 + 冰淇淋雙球(口味：香草/草莓/巧克力 任選二)/蜂蜜鬆餅 二選一 + 140元以下飲料任選一 + 一位8歲以下小朋友遊戲區不限時暢玩〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -586,6 +642,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要625元，即可享有【小蒙牛頂級麻辣養生鍋】週一至週五中午單人頂級鍋物吃到飽〈特別推薦：安格斯黑牛、頂級牛小排、頂級羊肩肉、頂級梅花豬肉、綜合海鮮盤、藍鯊魚片、滷大腸、牛肚、手打鮮蝦丸、手打花枝丸、新鮮菇類、麵食類、杯裝Hagen Dazs冰淇淋、曠世奇派、瓶裝可樂、各式蛋糕甜點及水果
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -607,6 +665,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要49元，即可享有【C,shop(西湖店)】輕盈一夏超值獨享餐〈熱壓吐司系列(蜂蜜芥末三明治/德國香腸乳酪三明治/起司鮪魚三明治/法式燻雞乳酪三明治/培根火腿乳酪三明治/有機葡萄蔓乳酪三明治)/帕瑪森軟法/貝果系列(果醬系列/肉排蛋/燻雞/起司蛋/鮪魚蛋/蛋沙拉蔬菜/德式香腸/起司培根)/捲餅系列(雞肉蔬菜捲/蔬菜蛋捲/雞肉蔓越莓蔬菜捲)/沙拉系列(煙燻凱撒沙拉/雞肉蔬菜沙拉/水果優格沙拉) 任選一 + 55元以下飲品任選一(40元以下為大杯700cc，超過40元以上為中杯500cc)〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -628,6 +688,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要188元，即可享有【NOT ONLY CAFE】週三至週日可抵用300元消費金額〈特別推薦：墨西哥辣雞帕里尼套餐、培根起司軟法三明治套餐、田園檸檬油醋沙拉、青檸蘋果茶、鳳梨冰茶、黑白冰磚咖啡、蜂蜜奇異果汁〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -649,6 +711,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要1150元起，即可享有【臻愛會館中菜餐廳】A.招牌真功夫中菜饗宴 / B.豪華真功夫中華饗宴
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -670,6 +734,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要933元(四人價)，即可享有【村子口中華料理】美味四人分享餐〈五更腸旺/滑蛋蝦仁/鐵板雞丁/宮保雞丁/糖醋雞丁/村子口豆腐/麻婆豆腐/老皮嫩肉/鐵板豆腐/金沙豆腐/干扁四季豆/櫻花蝦高麗菜/開陽白菜/上湯娃娃菜/清炒時蔬/月亮蝦餅/三杯杏鮑菇/三杯皮蛋/三杯豆腐/蒜泥白肉/蒼蠅頭 任選四 + 酸菜肉片湯/皮蛋鮮魚湯/薑絲蛤蜊湯 三選一 + 白飯四碗〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -685,6 +751,8 @@ gomaji_rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 
 url&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://www.gomaji.com/store/112406?pid=214073&amp;gid=59272
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -706,6 +774,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要398元(雙人價)，即可享有【三匠食堂】日本大廚味自慢雙人套餐〈招牌鮮蒜拉麵/日本麻辣拉麵/日本味噌拉麵/正宗豚骨拉麵/特製海鮮味噌拉麵 五選一 + 炸天蝦咖哩/炸鮮蚵咖哩/牛腩咖哩/厚切豬排咖哩/唐揚雞咖哩 五選一 + 甜點：日本品牌明治冰淇淋：香草/巧克力/草莓/抹茶 四選二 + 飲料：冰綠茶/冰紅茶/柳橙汁/芒果汁/可爾必思/冰咖啡/熱咖啡/可樂/雪碧 九選二〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -727,6 +797,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要745元，即可享有【小蒙牛頂級麻辣養生鍋】全時段午晚單人豪華鍋物吃到飽〈特別推薦：澳洲頂級和牛AA9+、無骨牛小排、西班牙松板豬肉、天使紅蝦、霸王白蝦、黑美人野生草蝦、安格斯黑牛、頂級牛小排、頂級羊肩肉、頂級梅花豬肉、綜合海鮮盤、滷大腸、牛肚、手打鮮蝦丸、手打花枝丸、新鮮菇類、麵食類、杯裝Hagen Dazs冰淇淋、曠世奇派、瓶裝可樂、各式蛋糕甜點及水果〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -748,6 +820,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要99元，即可享有【叄叁壹社】週一至週六可抵用150元消費金額〈特別推薦：芒果綠、甘梅鮮桔茶、酸甜柳丁汁、葡萄柚多、百香愛玉、檸檬冰沙、綠豆牛奶冰沙〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -763,6 +837,8 @@ gomaji_rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 
 url&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://www.gomaji.com/store/124925?pid=214062&amp;gid=59507
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -784,6 +860,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要3399元(十人價)，即可享有【海霸王】懷念料理~呷未了(10人份)〈冰花鮮魚一份 + 泰式中卷一份 + 圓籠蒸鮮蝦一份 + 招牌芋香鍋一份 + 咖哩海蟹一份 + 櫻花蝦米糕一份 + 八仙佛跳牆一份 + 紅燒圓蹄一份 + 鳳貝砂鍋雞搭配合時蔬菜一份 + 中式美點心一份 + 甜蜜情人果一份〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -799,6 +877,8 @@ gomaji_rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb
 
 url&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://www.gomaji.com/store/76588?pid=213555&amp;gid=51544
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -820,6 +900,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要89元起，即可享有【蘭正雞煲王】招牌必吃！麻辣燙獨享餐！〈招牌口味：川味麻辣/清香純滷  二選一 + 鴨血一份 + 豆腐一份 + 豬血糕一份 + 花干一份 + 小貢丸一份 + 百頁豆腐一份 + 甜不辣一份 + 金針菇一份 + 蘿蔔一份 + 季節時蔬一份 + 主食：烏龍麵/王子麵 二選一〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -841,6 +923,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要399元，即可享有【宜家商旅 LA MAISON HOTEL-JS餐廳】平假日可抵用500元消費金額〈特別推薦：經典凱薩沙拉搭楓糖培根、貝尼特地區墨魚燉飯佐明太子槍烏賊、焦糖瑪奇亞朵羊排佐咖啡濃肉汁、地中海辣味烤半雞襯地中海式蔬菜、嫩煎鮭魚佐檸香柑橘醬汁襯伏特加奶油與鮭魚卵、阿爾薩斯啤酒湯、法式酒漬櫻桃派、卡布里蔬菜佐棍子麵包〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -862,6 +946,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要230元，即可享有【普園北方麵食館】週一至週五可抵用300元消費金額〈特別推薦：牛肉餡餅、番茄牛肉麵、普園湯包、花素蒸餃(素)、合菜戴帽、口水雞、梅干扣肉、紅燒吳郭魚、木須炒麵、櫻花蝦炒飯、酸菜白肉鍋、蟹黃湯包、港式蘿蔔糕、豬肉炸醬麵、梅干扣肉、櫻花蝦炒飯、水煮牛肉、皮蛋地瓜葉〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -883,6 +969,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要188元，即可享有【孩子氣複合式餐廳】平假日皆可抵用300元消費金額(套餐升級不適用)〈特別推薦：奶油海鮮燉飯、炸物拼盤、青醬蛤蜊筆管義大利麵、茄汁時蔬焗烤義大利麵、香草漂浮可樂、海陸宴、紅豆牛奶冰〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
@@ -904,6 +992,8 @@ address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只要228元，即可享有【大木日食堂】平假日可抵用300元消費金額(酒類不適用)〈特別推薦：大木綜合握壽司、大木鐵火卷、烤松阪豬肉、日式炸豬排定食、炸天使紅蝦、大木錦繡丼、咖哩豬肉烏龍麵〉
 
+@@@@@@@@@@@
+name 'ScoreFlag' is not defined
 
 ==============================================================
 
