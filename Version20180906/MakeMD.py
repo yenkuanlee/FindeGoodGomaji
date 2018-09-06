@@ -5,6 +5,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+ScoreFlag = True
+
 # Display
 info = list()
 info.append('name')
