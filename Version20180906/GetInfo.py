@@ -123,6 +123,10 @@ def GetPageInfo(url):
             Idict['gomaji_rate'] = Prate['avg_score']
             Idict['gomaji_rate_list'] = Prate['score_cat_list']
             Idict['gomaji_rate_count'] = Prate['rating_total_count']
+            Sdict = dict()
+            for x in Idict['gomaji_rate_list']:
+                Sdict[x['score']] = x['count']
+            Idict['Sdict'] = Sdict
         except:
             Idict['gomaji_rate'] = "NULL"
             Idict['gomaji_rate_list'] = "NULL"
@@ -141,6 +145,8 @@ fw = open('result.json','w')
 fw.write(json.dumps(Cdict))
 fw.close()
 
+X = GetProductRate("40015")
+print(X["score_cat_list"])
 #print(len(Cdict))
 #for x in Cdict:
 #    print x
