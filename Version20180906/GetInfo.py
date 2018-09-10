@@ -186,6 +186,10 @@ def GetPageInfo(url):
         else:
             Idict['google_rate'] = GetGoogleRate(name)
             RateDict[gid] = (Idict['google_rate'],Ntime)
+        if Idict['google_rate']=='NO RATE':
+            pass
+        elif float(Idict['google_rate']) < float(Fdict['L_google_rate']):
+            continue
         Cdict[gid] = Idict
         Rlist.append(Idict)
     return Rlist
