@@ -194,8 +194,111 @@ def GetPageInfo(url):
         Rlist.append(Idict)
     return Rlist
 
+def GetOneProduct(url):
+    Idict = dict()
+    Idict['status'] = 'SUCCESS'
+    gid = url.split("gid=")[1]
+    resp = urllib2.urlopen(url)
+    page = resp.read().replace("\n","")
+    name = page.split("<h3 class=\"t-11\">")[1].split("</h3>")[0]
+    price = page.split("<div class=\"current\">")[1].split("</div>")[0]
+    price = int(re.search(r'\d+', price).group())
+    orign_price = page.split("<div class=\"original line-through\">")[1].split("</div>")[0]
+    orign_price = int(re.search(r'\d+', orign_price).group())
+    discount = float(price)/float(orign_price)
+    try:
+        TSC = page.split("份已販售</p>")[0].split(">")
+        sell_count = TSC[len(TSC)-1]
+        sell_count = int(re.search(r'\d+', sell_count).group())
+    except:
+        sell_count = 0
+
+    if price > int(Fdict['U_price']) :
+        return {"status": "ERROR"}
+    elif discount > float(Fdict['U_discount']):
+        return {"status": "ERROR"}
+
+    Idict['name'] = name
+    Idict['price'] = price
+    Idict['orign_price'] = orign_price
+    Idict['discount'] = "%.2f" % discount
+    Idict['url'] = url
+    Idict['sell_count'] = sell_count
+    
+    Prate = GetProductRate(gid)
+    # Rate-Filter
+    if Prate['status'] == "ERROR":
+        return {"status": "ERROR"}
+    elif Prate['avg_score'] < float(Fdict['L_gomaji_rate']):
+        return {"status": "ERROR"}
+    try:
+        Idict['gomaji_rate'] = Prate['avg_score']
+        Idict['gomaji_rate_list'] = Prate['score_cat_list']
+        Idict['gomaji_rate_count'] = Prate['rating_total_count']
+        Sdict = dict()
+        for x in Idict['gomaji_rate_list']:
+            Sdict[x['score']] = x['count']
+        Idict['Sdict'] = Sdict
+    except:
+        Idict['gomaji_rate'] = "NULL"
+        Idict['gomaji_rate_list'] = "NULL"
+        Idict['gomaji_rate_count'] = "NULL"
+
+    Pinfo = GetProductInfo(url)
+    for p in Pinfo:
+        Idict[p] = Pinfo[p]
+
+    if 1+1 == 2:
+        # Get Google Rate
+        Ntime = time.time()
+        if gid in RateDict:
+            if (Ntime-RateDict[gid][1]) >= (86400*7):
+                Idict['google_rate'] = GetGoogleRate(name)
+                RateDict[gid] = (Idict['google_rate'],Ntime)
+            else:
+                Idict['google_rate'] = RateDict[gid][0]
+        else:
+            Idict['google_rate'] = GetGoogleRate(name)
+            RateDict[gid] = (Idict['google_rate'],Ntime)
+        if Idict['google_rate']=='NO RATE':
+            pass
+        elif float(Idict['google_rate']) < float(Fdict['L_google_rate']):
+            return {"status": "ERROR"}
+    return Idict
+
+def GetMorePageInfo(url,page):
+    url += "&page="+str(page)
+    resp = urllib2.urlopen(url)
+    page = resp.read()
+    tmp = page.split("href=\\\"\\/store\\/")
+    Rlist = list()
+    flag = True
+    for x in tmp:
+        if flag:
+            flag = False
+            continue
+        Rlist.append("https://www.gomaji.com/store/"+x.split("\\\" target=_blank")[0])
+    return Rlist
+
 for i in range(16):
     GetPageInfo(Ulist[i])
+    for j in range(2,100,1):
+        try:
+            PPlist = GetMorePageInfo(Ulist[i],j)
+        except:
+            continue
+        if len(PPlist) == 0:
+            break
+        for x in PPlist:
+            try:
+                IIdict = GetOneProduct(x)
+                if IIdict['status'] == "ERROR":
+                    continue
+                ggid = x.split("gid=")[1]
+                Cdict[ggid] = IIdict
+            except:
+                continue
+
 fw = open('result.json','w')
 fw.write(json.dumps(Cdict))
 fw.close()
