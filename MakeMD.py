@@ -28,9 +28,9 @@ while True:
     if not line:
         break
     line = line.replace("\n","")
+    line = line.replace("~","-")
     J = json.loads(line)
     for x in J:
-
         for y in info:
             try:
                 tmpp = ""
