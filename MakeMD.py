@@ -23,6 +23,7 @@ info.append('description')
 info.append('gomaji_rate_count')
 
 f = open('result.json','r')
+print("# 我的邀請碼 Q7ZLL , 歡迎輸入一起賺點數唷\n")
 while True:
     line = f.readline()
     if not line:
