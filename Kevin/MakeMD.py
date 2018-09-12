@@ -39,7 +39,9 @@ while True:
         r = J[x]['Sdict']
         good = r['5']
         bad = r['1']+r['2']+r['3']+r['4']
-        if J[x]['sell_count']<100:
+        if J[x]['price'] > 150:
+            RemoveList.append(x)
+        elif J[x]['sell_count']<100:
             RemoveList.append(x)
         elif bad==0:
             continue
