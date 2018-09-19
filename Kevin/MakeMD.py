@@ -34,7 +34,7 @@ while True:
 
     ### Kevin Filter
     RemoveList = list()
-    BadPlace = ['蘆洲', '五股', '樹林', ]
+    BadPlace = ['蘆洲', '五股', '樹林', '林口']
     for x in J:
         r = J[x]['Sdict']
         good = r['5']
