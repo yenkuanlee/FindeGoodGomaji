@@ -150,7 +150,11 @@ def GetPageInfo(url):
         try:
             gid = url.split("gid=")[1]
         except:
-            continue
+            try:
+                response = urllib2.urlopen(url)
+                gid = response.read().split("let groupId = ")[1].split(";")[0]
+            except:
+                continue
         Prate = GetProductRate(gid)
         # Rate-Filter
         if Prate['status'] == "ERROR":
