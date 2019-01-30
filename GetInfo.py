@@ -125,11 +125,11 @@ def GetPageInfo(url):
         # Get 1-Info
         name = tmp[i].split("ellipsis\">")[1].split("<")[0]
         price = int(tmp[i].split("<div class=\"current\">")[1].split("$")[1].split("<")[0])
-        orign_price = int(tmp[i].split("<div class=\"original line-through\">")[1].split("$")[1].split("<")[0])
+        orign_price = int(tmp[i].split("<div class=\"original line-through")[1].split(">")[1].split("$")[1].split("<")[0])
         #discount = "%.2f" % (float(price)/float(orign_price))
         discount = float(price)/float(orign_price)
         url = "https://www.gomaji.com"+tmp[i].split("<a href=\"")[1].split("\"")[0]
-        sell_count = tmp[i].split("t-orange t-085 pt-2")[1].split("<")[0]
+        sell_count = tmp[i].split("t-orange t-085 ml-auto")[1].split("<")[0]
         try:
             sell_count = int(re.search(r'\d+', sell_count).group())
         except:
